@@ -1,0 +1,70 @@
+system:
+  mission_name: "BHARATIYA ANTARIKSH STATION - IVA EXPERIMENT MONITOR"
+  unit_id: "EDGE-PAYLOAD-AI-01"
+  environment: "standalone_offline"
+
+camera:
+  # 0 for default webcam, or path to MP4/synthetic feed
+  source: 0
+  width: 1280
+  height: 720
+  target_fps: 60
+  buffer_size: 4
+  synthetic_fallback: true
+
+server:
+  host: "0.0.0.0"
+  port: 8080
+  title: "Astro-HAR Edge Mission Control"
+  telemetry_ws_endpoint: "/ws/telemetry"
+  video_feed_endpoint: "/stream/video_feed"
+
+spatial_engine:
+  device: "cpu"  # cpu, mps, cuda
+  confidence_threshold: 0.40
+  rack_anchor_mode: "canonical_homography" # Normalizes 3D/2D coordinates to payload frame
+  proximity_threshold_norm: 0.15 # Normalized distance threshold for hand-object contact
+  classes:
+    0: "main_box"
+    1: "red_box"
+    2: "yellow_box"
+    3: "payload_slot"
+    4: "astronaut_hand"
+    5: "specimen_sample"
+
+action_transformer:
+  temporal_window_size: 16
+  feature_dim: 48
+  transformer_heads: 4
+  transformer_layers: 2
+  confidence_gate: 0.55
+  actions:
+    - "idle_inspect"
+    - "approach_rack"
+    - "open_box"
+    - "extract_object"
+    - "inspect_sample"
+    - "interact_slot"
+    - "insert_object"
+    - "close_box"
+
+fsm:
+  cooldown_sec: 1.0
+  auto_advance_on_stable_detection_sec: 1.5
+  enable_voice_prompts: true
+  enable_anomaly_alerts: true
+
+audio:
+  enabled: true
+  engine: "pyttsx3"  # Fully offline, zero network access
+  speech_rate: 175
+  volume: 1.0
+  voice_index: 0
+
+storage:
+  base_dir: "telemetry_data"
+  video_dir: "telemetry_data/recordings"
+  telemetry_dir: "telemetry_data/logs"
+  session_prefix: "BAS_IVA_EXP"
+  save_annotated_video: true
+  save_raw_video: false

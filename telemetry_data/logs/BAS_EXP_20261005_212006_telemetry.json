@@ -1,0 +1,118 @@
+{
+  "metadata": {
+    "mission": "BHARATIYA_ANTARIKSH_STATION_IVA",
+    "spacecraft_unit": "EDGE_PAYLOAD_AI_01",
+    "session_id": "BAS_EXP_20261005_212006",
+    "created_at_utc": "2026-10-05T15:50:09Z",
+    "format_version": "1.0-SIH26174"
+  },
+  "protocol_summary": {
+    "mission": "BHARATIYA_ANTARIKSH_STATION_IVA",
+    "protocol_code": "ISRO_BAS_EXP_26175",
+    "protocol_title": "Microgravity Fluid Capillary Dynamics & Channel Flow Experiment",
+    "is_completed": false,
+    "total_duration_sec": 1.62,
+    "current_step_id": 1,
+    "next_suggested_step": {
+      "id": 2,
+      "code": "STEP_2_INJECT_TRACER_FLUID",
+      "name": "Inject Fluorescent Tracer Liquid",
+      "description": "Retrieve micro-pipette cartridge and inject dye into primary test channel.",
+      "target_object": "red_box",
+      "expected_action": "extract_object",
+      "voice_prompt": "Chamber engaged. Step two: Retrieve the tracer fluid cartridge and inject into channel.",
+      "voice_alert_skip": "Alert! Sensor recording started before fluid injection completed.",
+      "prerequisites": [
+        "STEP_1_ALIGN_CAPILLARY_CHANNEL"
+      ],
+      "min_duration_sec": 1.0,
+      "timeout_sec": 30.0
+    },
+    "total_steps": 5,
+    "completion_percentage": 0,
+    "steps": [
+      {
+        "id": 1,
+        "code": "STEP_1_ALIGN_CAPILLARY_CHANNEL",
+        "name": "Calibrate & Align Capillary Chamber",
+        "description": "Align test chamber with rack optical observation axis and lock stabilization ring.",
+        "target_object": "main_box",
+        "expected_action": "open_box",
+        "status": "IN_PROGRESS",
+        "start_time": 1791215408.0037005,
+        "end_time": null,
+        "duration_sec": 0.0,
+        "anomalies": [],
+        "confidence": 0.0
+      },
+      {
+        "id": 2,
+        "code": "STEP_2_INJECT_TRACER_FLUID",
+        "name": "Inject Fluorescent Tracer Liquid",
+        "description": "Retrieve micro-pipette cartridge and inject dye into primary test channel.",
+        "target_object": "red_box",
+        "expected_action": "extract_object",
+        "status": "PENDING",
+        "start_time": null,
+        "end_time": null,
+        "duration_sec": 0.0,
+        "anomalies": [],
+        "confidence": 0.0
+      },
+      {
+        "id": 3,
+        "code": "STEP_3_RECORD_FLOW_MENISCUS",
+        "name": "Verify Meniscus Interface & Velocity",
+        "description": "Visually observe zero-gravity capillary meniscus advance under UV illumination.",
+        "target_object": "red_box",
+        "expected_action": "inspect_sample",
+        "status": "PENDING",
+        "start_time": null,
+        "end_time": null,
+        "duration_sec": 0.0,
+        "anomalies": [],
+        "confidence": 0.0
+      },
+      {
+        "id": 4,
+        "code": "STEP_4_ENGAGE_PURGE_VALVE",
+        "name": "Engage Channel Vacuum Purge",
+        "description": "Open the recovery valve to purge fluid into waste containment slot.",
+        "target_object": "yellow_box",
+        "expected_action": "extract_object",
+        "status": "PENDING",
+        "start_time": null,
+        "end_time": null,
+        "duration_sec": 0.0,
+        "anomalies": [],
+        "confidence": 0.0
+      },
+      {
+        "id": 5,
+        "code": "STEP_5_SEAL_WASTE_CONTAINER",
+        "name": "Seal & Stow Fluid Waste Slot",
+        "description": "Close secondary isolation lock and return fluid cartridge to payload slot.",
+        "target_object": "payload_slot",
+        "expected_action": "interact_slot",
+        "status": "PENDING",
+        "start_time": null,
+        "end_time": null,
+        "duration_sec": 0.0,
+        "anomalies": [],
+        "confidence": 0.0
+      }
+    ]
+  },
+  "event_stream": [
+    {
+      "timestamp_iso": "2026-10-05T15:50:07Z",
+      "unix_time": 1791215407.053,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Close & Latch Main Containment Box' before completing 'Unlatch & Open Main Containment Box'."
+    }
+  ]
+}

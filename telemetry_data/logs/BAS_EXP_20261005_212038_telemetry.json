@@ -1,0 +1,1343 @@
+{
+  "metadata": {
+    "mission": "BHARATIYA_ANTARIKSH_STATION_IVA",
+    "spacecraft_unit": "EDGE_PAYLOAD_AI_01",
+    "session_id": "BAS_EXP_20261005_212038",
+    "created_at_utc": "2026-10-05T15:57:26Z",
+    "format_version": "1.0-SIH26174"
+  },
+  "protocol_summary": {
+    "mission": "BHARATIYA_ANTARIKSH_STATION_IVA",
+    "protocol_code": "ISRO_BAS_EXP_26174",
+    "protocol_title": "Microgravity Dual-Containment Sample Experiment (Red & Yellow Box)",
+    "is_completed": false,
+    "total_duration_sec": 407.9,
+    "current_step_id": 1,
+    "next_suggested_step": {
+      "id": 2,
+      "code": "STEP_2_EXTRACT_RED_BOX",
+      "name": "Identify & Extract Red Box",
+      "description": "Locate and extract the Red specimen container from the main containment box.",
+      "target_object": "red_box",
+      "expected_action": "extract_object",
+      "voice_prompt": "Main box opened. Step two: Please retrieve the Red specimen box.",
+      "voice_alert_skip": "Warning! Out-of-order execution. Retrieve Red specimen container first.",
+      "prerequisites": [
+        "STEP_1_OPEN_MAIN_BOX"
+      ],
+      "min_duration_sec": 1.0,
+      "timeout_sec": 30.0
+    },
+    "total_steps": 7,
+    "completion_percentage": 0,
+    "steps": [
+      {
+        "id": 1,
+        "code": "STEP_1_OPEN_MAIN_BOX",
+        "name": "Unlatch & Open Main Containment Box",
+        "description": "Approach payload rack, disengage safety latches, and open the main containment lid.",
+        "target_object": "main_box",
+        "expected_action": "open_box",
+        "status": "IN_PROGRESS",
+        "start_time": 1791215438.9827986,
+        "end_time": null,
+        "duration_sec": 0.0,
+        "anomalies": [
+          {
+            "timestamp": 1791215447.6950145,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'.",
+            "voice_alert": "Warning! Out-of-order execution. Retrieve Red specimen container first.",
+            "detected_step": "STEP_2_EXTRACT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215451.7174408,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'.",
+            "voice_alert": "Warning! Out-of-order execution. Retrieve Red specimen container first.",
+            "detected_step": "STEP_2_EXTRACT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215455.727673,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Inspect / Open Red Specimen Box.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215459.743893,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Inspect / Open Red Specimen Box.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215463.7714033,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Inspect / Open Red Specimen Box.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215467.7726653,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215471.781191,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215488.0133524,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215492.013662,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215496.0146167,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'.",
+            "voice_alert": "Warning! Out-of-order execution. Retrieve Red specimen container first.",
+            "detected_step": "STEP_2_EXTRACT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215508.035049,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'.",
+            "voice_alert": "Warning! Out-of-order execution. Retrieve Red specimen container first.",
+            "detected_step": "STEP_2_EXTRACT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215512.046774,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'.",
+            "voice_alert": "Warning! Out-of-order execution. Retrieve Red specimen container first.",
+            "detected_step": "STEP_2_EXTRACT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215516.0548487,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Inspect / Open Red Specimen Box.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215520.0593114,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Inspect / Open Red Specimen Box.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215524.0612493,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Inspect / Open Red Specimen Box.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215528.0659788,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215532.0798852,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215548.112783,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215552.1185079,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215556.1292572,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'.",
+            "voice_alert": "Warning! Out-of-order execution. Retrieve Red specimen container first.",
+            "detected_step": "STEP_2_EXTRACT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215560.1316679,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'.",
+            "voice_alert": "Warning! Out-of-order execution. Retrieve Red specimen container first.",
+            "detected_step": "STEP_2_EXTRACT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215572.1651058,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'.",
+            "voice_alert": "Warning! Out-of-order execution. Retrieve Red specimen container first.",
+            "detected_step": "STEP_2_EXTRACT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215576.16781,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Inspect / Open Red Specimen Box.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215580.1829374,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Inspect / Open Red Specimen Box.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215584.1929948,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Inspect / Open Red Specimen Box.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215588.198522,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215592.204756,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215608.2347825,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215612.2459052,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215616.2589169,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'.",
+            "voice_alert": "Warning! Out-of-order execution. Retrieve Red specimen container first.",
+            "detected_step": "STEP_2_EXTRACT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215620.260171,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'.",
+            "voice_alert": "Warning! Out-of-order execution. Retrieve Red specimen container first.",
+            "detected_step": "STEP_2_EXTRACT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215632.2896013,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'.",
+            "voice_alert": "Warning! Out-of-order execution. Retrieve Red specimen container first.",
+            "detected_step": "STEP_2_EXTRACT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215636.2899444,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Inspect / Open Red Specimen Box.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215640.3031018,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Inspect / Open Red Specimen Box.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215644.303894,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Inspect / Open Red Specimen Box.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215648.3086066,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215652.318399,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215668.3439565,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215672.3457706,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215676.3475175,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215680.3626165,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'.",
+            "voice_alert": "Warning! Out-of-order execution. Retrieve Red specimen container first.",
+            "detected_step": "STEP_2_EXTRACT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215692.383857,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'.",
+            "voice_alert": "Warning! Out-of-order execution. Retrieve Red specimen container first.",
+            "detected_step": "STEP_2_EXTRACT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215696.3852031,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'.",
+            "voice_alert": "Warning! Out-of-order execution. Retrieve Red specimen container first.",
+            "detected_step": "STEP_2_EXTRACT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215700.395426,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Inspect / Open Red Specimen Box.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215704.405354,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Inspect / Open Red Specimen Box.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215708.4194257,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Inspect / Open Red Specimen Box.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215712.4311323,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215716.4399898,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215732.4614294,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215736.4654448,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215740.4814131,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'.",
+            "voice_alert": "Warning! Out-of-order execution. Retrieve Red specimen container first.",
+            "detected_step": "STEP_2_EXTRACT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215756.541811,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'.",
+            "voice_alert": "Warning! Out-of-order execution. Retrieve Red specimen container first.",
+            "detected_step": "STEP_2_EXTRACT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215760.5546656,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Inspect / Open Red Specimen Box.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215764.5653663,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Inspect / Open Red Specimen Box.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215768.5731149,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Inspect / Open Red Specimen Box.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215772.5859694,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215776.5930912,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215792.6244948,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215796.6407533,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215800.649988,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'.",
+            "voice_alert": "Warning! Out-of-order execution. Retrieve Red specimen container first.",
+            "detected_step": "STEP_2_EXTRACT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215804.6624458,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'.",
+            "voice_alert": "Warning! Out-of-order execution. Retrieve Red specimen container first.",
+            "detected_step": "STEP_2_EXTRACT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215816.7024956,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'.",
+            "voice_alert": "Warning! Out-of-order execution. Retrieve Red specimen container first.",
+            "detected_step": "STEP_2_EXTRACT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215820.71004,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Inspect / Open Red Specimen Box.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215824.7188783,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Inspect / Open Red Specimen Box.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215828.727398,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Inspect / Open Red Specimen Box.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215832.732622,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215836.7413108,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          }
+        ],
+        "confidence": 0.0
+      },
+      {
+        "id": 2,
+        "code": "STEP_2_EXTRACT_RED_BOX",
+        "name": "Identify & Extract Red Box",
+        "description": "Locate and extract the Red specimen container from the main containment box.",
+        "target_object": "red_box",
+        "expected_action": "extract_object",
+        "status": "PENDING",
+        "start_time": null,
+        "end_time": null,
+        "duration_sec": 0.0,
+        "anomalies": [],
+        "confidence": 0.0
+      },
+      {
+        "id": 3,
+        "code": "STEP_3_INSPECT_RED_BOX",
+        "name": "Inspect / Open Red Specimen Box",
+        "description": "Open and visually verify the sample inside the Red specimen container.",
+        "target_object": "red_box",
+        "expected_action": "inspect_sample",
+        "status": "PENDING",
+        "start_time": null,
+        "end_time": null,
+        "duration_sec": 0.0,
+        "anomalies": [],
+        "confidence": 0.0
+      },
+      {
+        "id": 4,
+        "code": "STEP_4_EXTRACT_YELLOW_BOX",
+        "name": "Identify & Extract Yellow Box",
+        "description": "Retrieve the secondary Yellow reagent/tool box from the main containment box.",
+        "target_object": "yellow_box",
+        "expected_action": "extract_object",
+        "status": "PENDING",
+        "start_time": null,
+        "end_time": null,
+        "duration_sec": 0.0,
+        "anomalies": [],
+        "confidence": 0.0
+      },
+      {
+        "id": 5,
+        "code": "STEP_5_EXECUTE_INTERACTION",
+        "name": "Perform Sample Interaction / Payload Slot Insert",
+        "description": "Perform reagent transfer, sensor coupling, or slot insertion with both containers active.",
+        "target_object": "payload_slot",
+        "expected_action": "interact_slot",
+        "status": "PENDING",
+        "start_time": null,
+        "end_time": null,
+        "duration_sec": 0.0,
+        "anomalies": [],
+        "confidence": 0.0
+      },
+      {
+        "id": 6,
+        "code": "STEP_6_RETURN_BOXES",
+        "name": "Return Red & Yellow Boxes to Containment",
+        "description": "Place both Red and Yellow containers back into their designated compartments in the main box.",
+        "target_object": "main_box",
+        "expected_action": "insert_object",
+        "status": "PENDING",
+        "start_time": null,
+        "end_time": null,
+        "duration_sec": 0.0,
+        "anomalies": [],
+        "confidence": 0.0
+      },
+      {
+        "id": 7,
+        "code": "STEP_7_CLOSE_MAIN_BOX",
+        "name": "Close & Latch Main Containment Box",
+        "description": "Close the lid of the main containment box and lock the safety latches securely.",
+        "target_object": "main_box",
+        "expected_action": "close_box",
+        "status": "PENDING",
+        "start_time": null,
+        "end_time": null,
+        "duration_sec": 0.0,
+        "anomalies": [],
+        "confidence": 0.0
+      }
+    ]
+  },
+  "event_stream": [
+    {
+      "timestamp_iso": "2026-10-05T15:50:47Z",
+      "unix_time": 1791215447.695,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:50:51Z",
+      "unix_time": 1791215451.717,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:50:55Z",
+      "unix_time": 1791215455.728,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:50:59Z",
+      "unix_time": 1791215459.745,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:51:03Z",
+      "unix_time": 1791215463.772,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:51:07Z",
+      "unix_time": 1791215467.773,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:51:11Z",
+      "unix_time": 1791215471.782,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:51:28Z",
+      "unix_time": 1791215488.013,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:51:32Z",
+      "unix_time": 1791215492.014,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:51:36Z",
+      "unix_time": 1791215496.015,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:51:48Z",
+      "unix_time": 1791215508.035,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:51:52Z",
+      "unix_time": 1791215512.047,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:51:56Z",
+      "unix_time": 1791215516.055,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:52:00Z",
+      "unix_time": 1791215520.059,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:52:04Z",
+      "unix_time": 1791215524.061,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:52:08Z",
+      "unix_time": 1791215528.067,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:52:12Z",
+      "unix_time": 1791215532.08,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:52:28Z",
+      "unix_time": 1791215548.113,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:52:32Z",
+      "unix_time": 1791215552.119,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:52:36Z",
+      "unix_time": 1791215556.129,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:52:40Z",
+      "unix_time": 1791215560.132,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:52:52Z",
+      "unix_time": 1791215572.165,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:52:56Z",
+      "unix_time": 1791215576.168,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:53:00Z",
+      "unix_time": 1791215580.184,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:53:04Z",
+      "unix_time": 1791215584.194,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:53:08Z",
+      "unix_time": 1791215588.199,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:53:12Z",
+      "unix_time": 1791215592.205,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:53:28Z",
+      "unix_time": 1791215608.236,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:53:32Z",
+      "unix_time": 1791215612.246,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:53:36Z",
+      "unix_time": 1791215616.259,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:53:40Z",
+      "unix_time": 1791215620.26,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:53:52Z",
+      "unix_time": 1791215632.29,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:53:56Z",
+      "unix_time": 1791215636.29,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:54:00Z",
+      "unix_time": 1791215640.303,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:54:04Z",
+      "unix_time": 1791215644.305,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:54:08Z",
+      "unix_time": 1791215648.309,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:54:12Z",
+      "unix_time": 1791215652.319,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:54:28Z",
+      "unix_time": 1791215668.344,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:54:32Z",
+      "unix_time": 1791215672.346,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:54:36Z",
+      "unix_time": 1791215676.349,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:54:40Z",
+      "unix_time": 1791215680.363,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:54:52Z",
+      "unix_time": 1791215692.384,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:54:56Z",
+      "unix_time": 1791215696.385,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:55:00Z",
+      "unix_time": 1791215700.395,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:55:04Z",
+      "unix_time": 1791215704.406,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:55:08Z",
+      "unix_time": 1791215708.42,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:55:12Z",
+      "unix_time": 1791215712.431,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:55:16Z",
+      "unix_time": 1791215716.44,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:55:32Z",
+      "unix_time": 1791215732.461,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:55:36Z",
+      "unix_time": 1791215736.467,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:55:40Z",
+      "unix_time": 1791215740.482,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:55:56Z",
+      "unix_time": 1791215756.546,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:56:00Z",
+      "unix_time": 1791215760.556,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:56:04Z",
+      "unix_time": 1791215764.565,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:56:08Z",
+      "unix_time": 1791215768.574,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:56:12Z",
+      "unix_time": 1791215772.586,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:56:16Z",
+      "unix_time": 1791215776.594,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:56:32Z",
+      "unix_time": 1791215792.624,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:56:36Z",
+      "unix_time": 1791215796.641,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:56:40Z",
+      "unix_time": 1791215800.65,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:56:44Z",
+      "unix_time": 1791215804.662,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:56:56Z",
+      "unix_time": 1791215816.702,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:57:00Z",
+      "unix_time": 1791215820.71,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:57:04Z",
+      "unix_time": 1791215824.72,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:57:08Z",
+      "unix_time": 1791215828.728,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:57:12Z",
+      "unix_time": 1791215832.733,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:57:16Z",
+      "unix_time": 1791215836.742,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+
+# macOS / OS specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Heavy generated telemetry recordings and logs (Keep directory structure via .gitkeep)
+telemetry_data/recordings/*.mp4
+telemetry_data/test_logs/
+dataset/test_synthetic/
+dataset/synthetic_microgravity/images/
+dataset/synthetic_microgravity/labels/
+
+# IDE / Editor configuration
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary model checkpoints / scratch
+*.tmp
+scratch/

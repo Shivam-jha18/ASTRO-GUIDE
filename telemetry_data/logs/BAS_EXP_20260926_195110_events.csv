@@ -1,0 +1,5 @@
+Timestamp_ISO,Unix_Time,Event_Type,Step_ID,Step_Name,Outcome_Status,Duration_Sec,Anomaly_Details
+2026-09-26T14:21:15Z,1790432475.684,ANOMALY_ALERT,1,Unlatch & Open Main Containment Box,VIOLATION,0.0,"Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'."
+2026-09-26T14:21:19Z,1790432479.687,ANOMALY_ALERT,1,Unlatch & Open Main Containment Box,VIOLATION,0.0,"Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'."
+2026-09-26T14:21:23Z,1790432483.688,ANOMALY_ALERT,1,Unlatch & Open Main Containment Box,VIOLATION,0.0,"Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'."
+2026-09-26T14:21:27Z,1790432487.72,ANOMALY_ALERT,1,Unlatch & Open Main Containment Box,VIOLATION,0.0,"Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."

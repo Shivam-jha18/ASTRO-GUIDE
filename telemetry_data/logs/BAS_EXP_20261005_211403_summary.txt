@@ -1,0 +1,51 @@
+==============================================================================
+BHARATIYA ANTARIKSH STATION (BAS) - ON-BOARD EXPERIMENT VERIFICATION REPORT
+==============================================================================
+Mission / Payload:     BHARATIYA_ANTARIKSH_STATION_IVA
+Session ID:            BAS_EXP_20261005_211403
+Report Generated (UTC):2026-10-05 15:45:04 UTC
+Hardware Platform:     EDGE_PAYLOAD_AI_01 (Offline Standalone Operation)
+Protocol Code:         ISRO_BAS_EXP_26174
+Protocol Title:        Microgravity Dual-Containment Sample Experiment (Red & Yellow Box)
+Completion Status:     IN PROGRESS / PARTIAL
+Overall Progress:      0%
+Total Elapsed Time:    60.36 seconds
+------------------------------------------------------------------------------
+CONDUCTED EXPERIMENT STEPS & OUTCOMES:
+------------------------------------------------------------------------------
+ID   STEP NAME                          TARGET       DURATION   STATUS      
+------------------------------------------------------------------------------
+1    Unlatch & Open Main Containment B  main_box     0.0s       [IN_PROGRESS]
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Close & Latch Main Containment Box' before completing 'Unlatch & Open Main Containment Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Close & Latch Main Containment Box' before completing 'Unlatch & Open Main Containment Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Close & Latch Main Containment Box' before completing 'Unlatch & Open Main Containment Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Close & Latch Main Containment Box' before completing 'Unlatch & Open Main Containment Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Close & Latch Main Containment Box' before completing 'Unlatch & Open Main Containment Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Close & Latch Main Containment Box' before completing 'Unlatch & Open Main Containment Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Close & Latch Main Containment Box' before completing 'Unlatch & Open Main Containment Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Close & Latch Main Containment Box' before completing 'Unlatch & Open Main Containment Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Close & Latch Main Containment Box' before completing 'Unlatch & Open Main Containment Box'.
+2    Identify & Extract Red Box         red_box      0.0s       [PENDING]   
+3    Inspect / Open Red Specimen Box    red_box      0.0s       [PENDING]   
+4    Identify & Extract Yellow Box      yellow_box   0.0s       [PENDING]   
+5    Perform Sample Interaction / Payl  payload_slo  0.0s       [PENDING]   
+6    Return Red & Yellow Boxes to Cont  main_box     0.0s       [PENDING]   
+7    Close & Latch Main Containment Bo  main_box     0.0s       [PENDING]   
+------------------------------------------------------------------------------
+MISSION AUDIT & ANOMALY SUMMARY:
+Total Anomalies Logged: 9
+Protocol Compliance:   9 ANOMALY EVENT(S) DETECTED AND RESOLVED
+------------------------------------------------------------------------------
+RECENT TELEMETRY EVENTS STREAM:
+  2026-10-05T15:44:03Z | ANOMALY_ALERT    | Step 1: VIOLATION | Step skipped! Attempting 'Close & Latch Main Containment Box' before completing 'Unlatch & Open Main Containment Box'.
+  2026-10-05T15:44:33Z | ANOMALY_ALERT    | Step 1: VIOLATION | Step skipped! Attempting 'Close & Latch Main Containment Box' before completing 'Unlatch & Open Main Containment Box'.
+  2026-10-05T15:44:37Z | ANOMALY_ALERT    | Step 1: VIOLATION | Step skipped! Attempting 'Close & Latch Main Containment Box' before completing 'Unlatch & Open Main Containment Box'.
+  2026-10-05T15:44:41Z | ANOMALY_ALERT    | Step 1: VIOLATION | Step skipped! Attempting 'Close & Latch Main Containment Box' before completing 'Unlatch & Open Main Containment Box'.
+  2026-10-05T15:44:45Z | ANOMALY_ALERT    | Step 1: VIOLATION | Step skipped! Attempting 'Close & Latch Main Containment Box' before completing 'Unlatch & Open Main Containment Box'.
+  2026-10-05T15:44:49Z | ANOMALY_ALERT    | Step 1: VIOLATION | Step skipped! Attempting 'Close & Latch Main Containment Box' before completing 'Unlatch & Open Main Containment Box'.
+  2026-10-05T15:44:53Z | ANOMALY_ALERT    | Step 1: VIOLATION | Step skipped! Attempting 'Close & Latch Main Containment Box' before completing 'Unlatch & Open Main Containment Box'.
+  2026-10-05T15:44:57Z | ANOMALY_ALERT    | Step 1: VIOLATION | Step skipped! Attempting 'Close & Latch Main Containment Box' before completing 'Unlatch & Open Main Containment Box'.
+  2026-10-05T15:45:01Z | ANOMALY_ALERT    | Step 1: VIOLATION | Step skipped! Attempting 'Close & Latch Main Containment Box' before completing 'Unlatch & Open Main Containment Box'.
+==============================================================================
+END OF STRUCTURED TELEMETRY REPORT [ARCHIVED LOCALLY]
+==============================================================================

@@ -1,0 +1,626 @@
+{
+  "metadata": {
+    "mission": "BHARATIYA_ANTARIKSH_STATION_IVA",
+    "spacecraft_unit": "EDGE_PAYLOAD_AI_01",
+    "session_id": "BAS_EXP_20260926_194845",
+    "created_at_utc": "2026-09-26T14:20:40Z",
+    "format_version": "1.0-SIH26174"
+  },
+  "protocol_summary": {
+    "mission": "BHARATIYA_ANTARIKSH_STATION_IVA",
+    "protocol_code": "ISRO_BAS_EXP_26174",
+    "protocol_title": "Microgravity Dual-Containment Sample Experiment (Red & Yellow Box)",
+    "is_completed": false,
+    "total_duration_sec": 114.64,
+    "current_step_id": 1,
+    "total_steps": 7,
+    "completion_percentage": 0,
+    "steps": [
+      {
+        "id": 1,
+        "code": "STEP_1_OPEN_MAIN_BOX",
+        "name": "Unlatch & Open Main Containment Box",
+        "description": "Approach payload rack, disengage safety latches, and open the main containment lid.",
+        "target_object": "main_box",
+        "expected_action": "open_box",
+        "status": "IN_PROGRESS",
+        "start_time": 1790432325.556298,
+        "end_time": null,
+        "duration_sec": 0.0,
+        "anomalies": [
+          {
+            "timestamp": 1790432325.958595,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'.",
+            "voice_alert": "Caution! Specimen verification omitted. Inspect Red box before continuing.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790432329.958772,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'.",
+            "voice_alert": "Caution! Specimen verification omitted. Inspect Red box before continuing.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790432333.961807,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'.",
+            "voice_alert": "Caution! Specimen verification omitted. Inspect Red box before continuing.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790432337.966434,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'.",
+            "voice_alert": "Caution! Specimen verification omitted. Inspect Red box before continuing.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790432341.9667351,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'.",
+            "voice_alert": "Caution! Specimen verification omitted. Inspect Red box before continuing.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790432346.859293,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'.",
+            "voice_alert": "Caution! Specimen verification omitted. Inspect Red box before continuing.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790432352.126028,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'.",
+            "voice_alert": "Caution! Specimen verification omitted. Inspect Red box before continuing.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790432356.1275961,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'.",
+            "voice_alert": "Caution! Specimen verification omitted. Inspect Red box before continuing.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790432360.1289349,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'.",
+            "voice_alert": "Caution! Specimen verification omitted. Inspect Red box before continuing.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790432364.135978,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'.",
+            "voice_alert": "Caution! Specimen verification omitted. Inspect Red box before continuing.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790432368.137783,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'.",
+            "voice_alert": "Caution! Specimen verification omitted. Inspect Red box before continuing.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790432372.140671,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'.",
+            "voice_alert": "Caution! Specimen verification omitted. Inspect Red box before continuing.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790432376.141263,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'.",
+            "voice_alert": "Caution! Specimen verification omitted. Inspect Red box before continuing.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790432380.144609,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'.",
+            "voice_alert": "Caution! Specimen verification omitted. Inspect Red box before continuing.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790432384.149842,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'.",
+            "voice_alert": "Caution! Specimen verification omitted. Inspect Red box before continuing.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790432388.153452,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'.",
+            "voice_alert": "Caution! Specimen verification omitted. Inspect Red box before continuing.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790432392.154238,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'.",
+            "voice_alert": "Caution! Specimen verification omitted. Inspect Red box before continuing.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790432396.154968,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'.",
+            "voice_alert": "Caution! Specimen verification omitted. Inspect Red box before continuing.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790432400.15573,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'.",
+            "voice_alert": "Caution! Specimen verification omitted. Inspect Red box before continuing.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790432404.162674,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'.",
+            "voice_alert": "Caution! Specimen verification omitted. Inspect Red box before continuing.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790432412.169197,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'.",
+            "voice_alert": "Caution! Specimen verification omitted. Inspect Red box before continuing.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790432416.174648,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'.",
+            "voice_alert": "Caution! Specimen verification omitted. Inspect Red box before continuing.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790432420.18001,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'.",
+            "voice_alert": "Caution! Specimen verification omitted. Inspect Red box before continuing.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790432424.182163,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'.",
+            "voice_alert": "Caution! Specimen verification omitted. Inspect Red box before continuing.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790432428.1887848,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'.",
+            "voice_alert": "Caution! Specimen verification omitted. Inspect Red box before continuing.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790432432.190807,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'.",
+            "voice_alert": "Caution! Specimen verification omitted. Inspect Red box before continuing.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790432436.192141,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'.",
+            "voice_alert": "Caution! Specimen verification omitted. Inspect Red box before continuing.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790432440.196956,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'.",
+            "voice_alert": "Caution! Specimen verification omitted. Inspect Red box before continuing.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          }
+        ],
+        "confidence": 0.0
+      },
+      {
+        "id": 2,
+        "code": "STEP_2_EXTRACT_RED_BOX",
+        "name": "Identify & Extract Red Box",
+        "description": "Locate and extract the Red specimen container from the main containment box.",
+        "target_object": "red_box",
+        "expected_action": "extract_object",
+        "status": "PENDING",
+        "start_time": null,
+        "end_time": null,
+        "duration_sec": 0.0,
+        "anomalies": [],
+        "confidence": 0.0
+      },
+      {
+        "id": 3,
+        "code": "STEP_3_INSPECT_RED_BOX",
+        "name": "Inspect / Open Red Specimen Box",
+        "description": "Open and visually verify the sample inside the Red specimen container.",
+        "target_object": "red_box",
+        "expected_action": "inspect_sample",
+        "status": "PENDING",
+        "start_time": null,
+        "end_time": null,
+        "duration_sec": 0.0,
+        "anomalies": [],
+        "confidence": 0.0
+      },
+      {
+        "id": 4,
+        "code": "STEP_4_EXTRACT_YELLOW_BOX",
+        "name": "Identify & Extract Yellow Box",
+        "description": "Retrieve the secondary Yellow reagent/tool box from the main containment box.",
+        "target_object": "yellow_box",
+        "expected_action": "extract_object",
+        "status": "PENDING",
+        "start_time": null,
+        "end_time": null,
+        "duration_sec": 0.0,
+        "anomalies": [],
+        "confidence": 0.0
+      },
+      {
+        "id": 5,
+        "code": "STEP_5_EXECUTE_INTERACTION",
+        "name": "Perform Sample Interaction / Payload Slot Insert",
+        "description": "Perform reagent transfer, sensor coupling, or slot insertion with both containers active.",
+        "target_object": "payload_slot",
+        "expected_action": "interact_slot",
+        "status": "PENDING",
+        "start_time": null,
+        "end_time": null,
+        "duration_sec": 0.0,
+        "anomalies": [],
+        "confidence": 0.0
+      },
+      {
+        "id": 6,
+        "code": "STEP_6_RETURN_BOXES",
+        "name": "Return Red & Yellow Boxes to Containment",
+        "description": "Place both Red and Yellow containers back into their designated compartments in the main box.",
+        "target_object": "main_box",
+        "expected_action": "insert_object",
+        "status": "PENDING",
+        "start_time": null,
+        "end_time": null,
+        "duration_sec": 0.0,
+        "anomalies": [],
+        "confidence": 0.0
+      },
+      {
+        "id": 7,
+        "code": "STEP_7_CLOSE_MAIN_BOX",
+        "name": "Close & Latch Main Containment Box",
+        "description": "Close the lid of the main containment box and lock the safety latches securely.",
+        "target_object": "main_box",
+        "expected_action": "close_box",
+        "status": "PENDING",
+        "start_time": null,
+        "end_time": null,
+        "duration_sec": 0.0,
+        "anomalies": [],
+        "confidence": 0.0
+      }
+    ]
+  },
+  "event_stream": [
+    {
+      "timestamp_iso": "2026-09-26T14:18:45Z",
+      "unix_time": 1790432325.959,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T14:18:49Z",
+      "unix_time": 1790432329.959,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T14:18:53Z",
+      "unix_time": 1790432333.962,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T14:18:57Z",
+      "unix_time": 1790432337.967,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T14:19:01Z",
+      "unix_time": 1790432341.967,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T14:19:06Z",
+      "unix_time": 1790432346.859,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T14:19:12Z",
+      "unix_time": 1790432352.126,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T14:19:16Z",
+      "unix_time": 1790432356.128,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T14:19:20Z",
+      "unix_time": 1790432360.129,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T14:19:24Z",
+      "unix_time": 1790432364.136,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T14:19:28Z",
+      "unix_time": 1790432368.138,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T14:19:32Z",
+      "unix_time": 1790432372.141,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T14:19:36Z",
+      "unix_time": 1790432376.141,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T14:19:40Z",
+      "unix_time": 1790432380.145,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T14:19:44Z",
+      "unix_time": 1790432384.15,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T14:19:48Z",
+      "unix_time": 1790432388.154,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T14:19:52Z",
+      "unix_time": 1790432392.154,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T14:19:56Z",
+      "unix_time": 1790432396.155,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T14:20:00Z",
+      "unix_time": 1790432400.156,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T14:20:04Z",
+      "unix_time": 1790432404.163,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T14:20:12Z",
+      "unix_time": 1790432412.169,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T14:20:16Z",
+      "unix_time": 1790432416.175,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T14:20:20Z",
+      "unix_time": 1790432420.18,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T14:20:24Z",
+      "unix_time": 1790432424.182,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T14:20:28Z",
+      "unix_time": 1790432428.189,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T14:20:32Z",
+      "unix_time": 1790432432.191,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T14:20:36Z",
+      "unix_time": 1790432436.192,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T14:20:40Z",
+      "unix_time": 1790432440.197,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'."
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+Timestamp_ISO,Unix_Time,Event_Type,Step_ID,Step_Name,Outcome_Status,Duration_Sec,Anomaly_Details
+2026-10-05T15:50:07Z,1791215407.053,ANOMALY_ALERT,1,Unlatch & Open Main Containment Box,VIOLATION,0.0,Step skipped! Attempting 'Close & Latch Main Containment Box' before completing 'Unlatch & Open Main Containment Box'.

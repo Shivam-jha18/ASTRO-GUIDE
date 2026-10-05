@@ -1,0 +1,66 @@
+Timestamp_ISO,Unix_Time,Event_Type,Step_ID,Step_Name,Outcome_Status,Duration_Sec,Anomaly_Details
+2026-10-05T15:36:01Z,1791214561.331,ANOMALY_ALERT,1,Unlatch & Open Main Containment Box,VIOLATION,0.0,"Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'."
+2026-10-05T15:36:05Z,1791214565.347,ANOMALY_ALERT,1,Unlatch & Open Main Containment Box,VIOLATION,0.0,"Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'."
+2026-10-05T15:36:09Z,1791214569.349,ANOMALY_ALERT,1,Unlatch & Open Main Containment Box,VIOLATION,0.0,Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'.
+2026-10-05T15:36:13Z,1791214573.36,ANOMALY_ALERT,1,Unlatch & Open Main Containment Box,VIOLATION,0.0,Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'.
+2026-10-05T15:36:17Z,1791214577.387,ANOMALY_ALERT,1,Unlatch & Open Main Containment Box,VIOLATION,0.0,Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'.
+2026-10-05T15:36:21Z,1791214581.388,ANOMALY_ALERT,1,Unlatch & Open Main Containment Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.
+2026-10-05T15:36:25Z,1791214585.399,ANOMALY_ALERT,1,Unlatch & Open Main Containment Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.
+2026-10-05T15:36:42Z,1791214602.151,ANOMALY_ALERT,1,Unlatch & Open Main Containment Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.
+2026-10-05T15:36:46Z,1791214606.156,ANOMALY_ALERT,1,Unlatch & Open Main Containment Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.
+2026-10-05T15:36:50Z,1791214610.158,ANOMALY_ALERT,1,Unlatch & Open Main Containment Box,VIOLATION,0.0,"Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'."
+2026-10-05T15:37:06Z,1791214626.191,ANOMALY_ALERT,1,Unlatch & Open Main Containment Box,VIOLATION,0.0,"Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'."
+2026-10-05T15:37:10Z,1791214630.191,ANOMALY_ALERT,1,Unlatch & Open Main Containment Box,VIOLATION,0.0,Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'.
+2026-10-05T15:37:14Z,1791214634.193,ANOMALY_ALERT,1,Unlatch & Open Main Containment Box,VIOLATION,0.0,Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'.
+2026-10-05T15:37:18Z,1791214638.203,ANOMALY_ALERT,1,Unlatch & Open Main Containment Box,VIOLATION,0.0,Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'.
+2026-10-05T15:37:22Z,1791214642.214,ANOMALY_ALERT,1,Unlatch & Open Main Containment Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.
+2026-10-05T15:37:26Z,1791214646.219,ANOMALY_ALERT,1,Unlatch & Open Main Containment Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.
+2026-10-05T15:37:42Z,1791214662.265,ANOMALY_ALERT,1,Unlatch & Open Main Containment Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.
+2026-10-05T15:37:46Z,1791214666.267,ANOMALY_ALERT,1,Unlatch & Open Main Containment Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.
+2026-10-05T15:37:48Z,1791214668.9,ANOMALY_ALERT,1,Unlatch & Open Main Containment Box,VIOLATION,0.0,Out of sequence action detected! Extraneous action performed before completing 'Unlatch & Open Main Containment Box'.
+2026-10-05T15:37:52Z,1791214672.928,STEP_COMPLETED,1,Unlatch & Open Main Containment Box,SUCCESS,119.8,None
+2026-10-05T15:37:54Z,1791214674.855,ANOMALY_ALERT,2,Identify & Extract Red Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+2026-10-05T15:37:58Z,1791214678.87,ANOMALY_ALERT,2,Identify & Extract Red Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+2026-10-05T15:38:02Z,1791214682.872,ANOMALY_ALERT,2,Identify & Extract Red Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+2026-10-05T15:38:06Z,1791214686.878,ANOMALY_ALERT,2,Identify & Extract Red Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+2026-10-05T15:38:10Z,1791214690.883,ANOMALY_ALERT,2,Identify & Extract Red Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+2026-10-05T15:38:14Z,1791214694.896,ANOMALY_ALERT,2,Identify & Extract Red Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+2026-10-05T15:38:18Z,1791214698.926,ANOMALY_ALERT,2,Identify & Extract Red Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+2026-10-05T15:38:22Z,1791214702.926,ANOMALY_ALERT,2,Identify & Extract Red Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+2026-10-05T15:38:26Z,1791214706.952,ANOMALY_ALERT,2,Identify & Extract Red Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+2026-10-05T15:39:03Z,1791214743.03,ANOMALY_ALERT,2,Identify & Extract Red Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+2026-10-05T15:39:06Z,1791214746.405,ANOMALY_ALERT,2,Identify & Extract Red Box,VIOLATION,0.0,Out of sequence action detected! Extraneous action performed before completing 'Identify & Extract Red Box'.
+2026-10-05T15:39:07Z,1791214747.056,ANOMALY_ALERT,2,Identify & Extract Red Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+2026-10-05T15:39:11Z,1791214751.061,ANOMALY_ALERT,2,Identify & Extract Red Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+2026-10-05T15:39:11Z,1791214751.808,ANOMALY_ALERT,2,Identify & Extract Red Box,VIOLATION,0.0,Out of sequence action detected! Extraneous action performed before completing 'Identify & Extract Red Box'.
+2026-10-05T15:39:15Z,1791214755.077,ANOMALY_ALERT,2,Identify & Extract Red Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+2026-10-05T15:39:19Z,1791214759.096,ANOMALY_ALERT,2,Identify & Extract Red Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+2026-10-05T15:39:23Z,1791214763.106,ANOMALY_ALERT,2,Identify & Extract Red Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+2026-10-05T15:39:27Z,1791214767.121,ANOMALY_ALERT,2,Identify & Extract Red Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+2026-10-05T15:39:31Z,1791214771.129,ANOMALY_ALERT,2,Identify & Extract Red Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+2026-10-05T15:39:35Z,1791214775.129,ANOMALY_ALERT,2,Identify & Extract Red Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+2026-10-05T15:40:39Z,1791214839.265,ANOMALY_ALERT,2,Identify & Extract Red Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+2026-10-05T15:40:43Z,1791214843.291,ANOMALY_ALERT,2,Identify & Extract Red Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+2026-10-05T15:40:47Z,1791214847.306,ANOMALY_ALERT,2,Identify & Extract Red Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+2026-10-05T15:40:51Z,1791214851.301,ANOMALY_ALERT,2,Identify & Extract Red Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+2026-10-05T15:40:55Z,1791214855.306,ANOMALY_ALERT,2,Identify & Extract Red Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+2026-10-05T15:40:59Z,1791214859.311,ANOMALY_ALERT,2,Identify & Extract Red Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+2026-10-05T15:41:03Z,1791214863.316,ANOMALY_ALERT,2,Identify & Extract Red Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+2026-10-05T15:41:07Z,1791214867.322,ANOMALY_ALERT,2,Identify & Extract Red Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+2026-10-05T15:41:11Z,1791214871.331,ANOMALY_ALERT,2,Identify & Extract Red Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+2026-10-05T15:42:07Z,1791214927.469,ANOMALY_ALERT,2,Identify & Extract Red Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+2026-10-05T15:42:11Z,1791214931.477,ANOMALY_ALERT,2,Identify & Extract Red Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+2026-10-05T15:42:15Z,1791214935.487,ANOMALY_ALERT,2,Identify & Extract Red Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+2026-10-05T15:42:19Z,1791214939.493,ANOMALY_ALERT,2,Identify & Extract Red Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+2026-10-05T15:42:23Z,1791214943.516,ANOMALY_ALERT,2,Identify & Extract Red Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+2026-10-05T15:42:59Z,1791214979.592,ANOMALY_ALERT,2,Identify & Extract Red Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+2026-10-05T15:43:03Z,1791214983.603,ANOMALY_ALERT,2,Identify & Extract Red Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+2026-10-05T15:43:07Z,1791214987.613,ANOMALY_ALERT,2,Identify & Extract Red Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+2026-10-05T15:43:11Z,1791214991.636,ANOMALY_ALERT,2,Identify & Extract Red Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+2026-10-05T15:43:15Z,1791214995.639,ANOMALY_ALERT,2,Identify & Extract Red Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+2026-10-05T15:43:19Z,1791214999.649,ANOMALY_ALERT,2,Identify & Extract Red Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+2026-10-05T15:43:23Z,1791215003.653,ANOMALY_ALERT,2,Identify & Extract Red Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+2026-10-05T15:43:27Z,1791215007.665,ANOMALY_ALERT,2,Identify & Extract Red Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+2026-10-05T15:43:31Z,1791215011.676,ANOMALY_ALERT,2,Identify & Extract Red Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+2026-10-05T15:43:35Z,1791215015.68,ANOMALY_ALERT,2,Identify & Extract Red Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+2026-10-05T15:43:39Z,1791215019.69,ANOMALY_ALERT,2,Identify & Extract Red Box,VIOLATION,0.0,Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.

@@ -1,0 +1,140 @@
+{
+  "metadata": {
+    "mission": "BHARATIYA_ANTARIKSH_STATION_IVA",
+    "spacecraft_unit": "EDGE_PAYLOAD_AI_01",
+    "session_id": "BAS_EXP_20260926_225039",
+    "created_at_utc": "2026-09-26T17:20:47Z",
+    "format_version": "1.0-SIH26174"
+  },
+  "protocol_summary": {
+    "mission": "BHARATIYA_ANTARIKSH_STATION_IVA",
+    "protocol_code": "ISRO_BAS_EXP_26174",
+    "protocol_title": "Microgravity Dual-Containment Sample Experiment (Red & Yellow Box)",
+    "is_completed": false,
+    "total_duration_sec": 8.78,
+    "current_step_id": 1,
+    "total_steps": 7,
+    "completion_percentage": 0,
+    "steps": [
+      {
+        "id": 1,
+        "code": "STEP_1_OPEN_MAIN_BOX",
+        "name": "Unlatch & Open Main Containment Box",
+        "description": "Approach payload rack, disengage safety latches, and open the main containment lid.",
+        "target_object": "main_box",
+        "expected_action": "open_box",
+        "status": "IN_PROGRESS",
+        "start_time": 1790443239.0186765,
+        "end_time": null,
+        "duration_sec": 0.0,
+        "anomalies": [
+          {
+            "timestamp": 1790443247.7999296,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'.",
+            "voice_alert": "Warning! Out-of-order execution. Retrieve Red specimen container first.",
+            "detected_step": "STEP_2_EXTRACT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          }
+        ],
+        "confidence": 0.0
+      },
+      {
+        "id": 2,
+        "code": "STEP_2_EXTRACT_RED_BOX",
+        "name": "Identify & Extract Red Box",
+        "description": "Locate and extract the Red specimen container from the main containment box.",
+        "target_object": "red_box",
+        "expected_action": "extract_object",
+        "status": "PENDING",
+        "start_time": null,
+        "end_time": null,
+        "duration_sec": 0.0,
+        "anomalies": [],
+        "confidence": 0.0
+      },
+      {
+        "id": 3,
+        "code": "STEP_3_INSPECT_RED_BOX",
+        "name": "Inspect / Open Red Specimen Box",
+        "description": "Open and visually verify the sample inside the Red specimen container.",
+        "target_object": "red_box",
+        "expected_action": "inspect_sample",
+        "status": "PENDING",
+        "start_time": null,
+        "end_time": null,
+        "duration_sec": 0.0,
+        "anomalies": [],
+        "confidence": 0.0
+      },
+      {
+        "id": 4,
+        "code": "STEP_4_EXTRACT_YELLOW_BOX",
+        "name": "Identify & Extract Yellow Box",
+        "description": "Retrieve the secondary Yellow reagent/tool box from the main containment box.",
+        "target_object": "yellow_box",
+        "expected_action": "extract_object",
+        "status": "PENDING",
+        "start_time": null,
+        "end_time": null,
+        "duration_sec": 0.0,
+        "anomalies": [],
+        "confidence": 0.0
+      },
+      {
+        "id": 5,
+        "code": "STEP_5_EXECUTE_INTERACTION",
+        "name": "Perform Sample Interaction / Payload Slot Insert",
+        "description": "Perform reagent transfer, sensor coupling, or slot insertion with both containers active.",
+        "target_object": "payload_slot",
+        "expected_action": "interact_slot",
+        "status": "PENDING",
+        "start_time": null,
+        "end_time": null,
+        "duration_sec": 0.0,
+        "anomalies": [],
+        "confidence": 0.0
+      },
+      {
+        "id": 6,
+        "code": "STEP_6_RETURN_BOXES",
+        "name": "Return Red & Yellow Boxes to Containment",
+        "description": "Place both Red and Yellow containers back into their designated compartments in the main box.",
+        "target_object": "main_box",
+        "expected_action": "insert_object",
+        "status": "PENDING",
+        "start_time": null,
+        "end_time": null,
+        "duration_sec": 0.0,
+        "anomalies": [],
+        "confidence": 0.0
+      },
+      {
+        "id": 7,
+        "code": "STEP_7_CLOSE_MAIN_BOX",
+        "name": "Close & Latch Main Containment Box",
+        "description": "Close the lid of the main containment box and lock the safety latches securely.",
+        "target_object": "main_box",
+        "expected_action": "close_box",
+        "status": "PENDING",
+        "start_time": null,
+        "end_time": null,
+        "duration_sec": 0.0,
+        "anomalies": [],
+        "confidence": 0.0
+      }
+    ]
+  },
+  "event_stream": [
+    {
+      "timestamp_iso": "2026-09-26T17:20:47Z",
+      "unix_time": 1790443247.8,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+Timestamp_ISO,Unix_Time,Event_Type,Step_ID,Step_Name,Outcome_Status,Duration_Sec,Anomaly_Details
+2026-09-26T14:25:59Z,1790432759.493,ANOMALY_ALERT,1,Unlatch & Open Main Containment Box,VIOLATION,0.0,"Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'."
+2026-09-26T14:26:03Z,1790432763.496,ANOMALY_ALERT,1,Unlatch & Open Main Containment Box,VIOLATION,0.0,"Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'."
+2026-09-26T14:26:07Z,1790432767.499,ANOMALY_ALERT,1,Unlatch & Open Main Containment Box,VIOLATION,0.0,"Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Inspect / Open Red Specimen Box'."
+2026-09-26T14:26:11Z,1790432771.53,ANOMALY_ALERT,1,Unlatch & Open Main Containment Box,VIOLATION,0.0,"Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+2026-09-26T14:26:15Z,1790432775.537,ANOMALY_ALERT,1,Unlatch & Open Main Containment Box,VIOLATION,0.0,"Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+2026-09-26T14:26:21Z,1790432781.278,ANOMALY_ALERT,1,Unlatch & Open Main Containment Box,VIOLATION,0.0,Out of sequence execution! Yellow box extracted before Red box inspection.
+2026-09-26T14:26:21Z,1790432781.283,ANOMALY_ALERT,1,Unlatch & Open Main Containment Box,VIOLATION,0.0,"Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+2026-09-26T14:26:25Z,1790432785.823,ANOMALY_ALERT,1,Unlatch & Open Main Containment Box,VIOLATION,0.0,"Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+2026-09-26T14:26:30Z,1790432790.689,ANOMALY_ALERT,1,Unlatch & Open Main Containment Box,VIOLATION,0.0,"Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+2026-09-26T14:26:35Z,1790432795.761,ANOMALY_ALERT,1,Unlatch & Open Main Containment Box,VIOLATION,0.0,"Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+2026-09-26T14:26:43Z,1790432803.765,ANOMALY_ALERT,1,Unlatch & Open Main Containment Box,VIOLATION,0.0,"Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."

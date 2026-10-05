@@ -1,0 +1,95 @@
+protocol_name: "ISRO_BAS_EXP_26174"
+protocol_title: "Microgravity Dual-Containment Sample Experiment (Red & Yellow Box)"
+version: "1.0.0"
+author: "Smart India Hackathon 2026 - Problem 26174"
+description: >
+  Autonomous protocol verification for astronaut IVA experiment inside
+  the Bharatiya Antariksh Station (BAS) edge payload rack. Validates sequence,
+  detects skipped or out-of-order steps, prompts next actions, and alerts on anomalies.
+
+steps:
+  - id: 1
+    code: "STEP_1_OPEN_MAIN_BOX"
+    name: "Unlatch & Open Main Containment Box"
+    description: "Approach payload rack, disengage safety latches, and open the main containment lid."
+    target_object: "main_box"
+    expected_action: "open_box"
+    voice_prompt: "Protocol started. Step one: Please unlatch and open the main containment box."
+    voice_alert_skip: "Warning! Attempting sample extraction before opening main containment box."
+    prerequisites: []
+    min_duration_sec: 1.5
+    timeout_sec: 45.0
+
+  - id: 2
+    code: "STEP_2_EXTRACT_RED_BOX"
+    name: "Identify & Extract Red Box"
+    description: "Locate and extract the Red specimen container from the main containment box."
+    target_object: "red_box"
+    expected_action: "extract_object"
+    voice_prompt: "Main box opened. Step two: Please retrieve the Red specimen box."
+    voice_alert_skip: "Warning! Out-of-order execution. Retrieve Red specimen container first."
+    prerequisites: ["STEP_1_OPEN_MAIN_BOX"]
+    min_duration_sec: 1.0
+    timeout_sec: 30.0
+
+  - id: 3
+    code: "STEP_3_INSPECT_RED_BOX"
+    name: "Inspect / Open Red Specimen Box"
+    description: "Open and visually verify the sample inside the Red specimen container."
+    target_object: "red_box"
+    expected_action: "inspect_sample"
+    voice_prompt: "Red box extracted. Step three: Inspect the specimen inside the Red box."
+    voice_alert_skip: "Caution! Specimen verification omitted. Inspect Red box before continuing."
+    prerequisites: ["STEP_2_EXTRACT_RED_BOX"]
+    min_duration_sec: 1.5
+    timeout_sec: 30.0
+
+  - id: 4
+    code: "STEP_4_EXTRACT_YELLOW_BOX"
+    name: "Identify & Extract Yellow Box"
+    description: "Retrieve the secondary Yellow reagent/tool box from the main containment box."
+    target_object: "yellow_box"
+    expected_action: "extract_object"
+    voice_prompt: "Inspection verified. Step four: Please retrieve the Yellow container."
+    voice_alert_skip: "Alert! Yellow box extracted out of sequence. Red box procedure incomplete."
+    prerequisites: ["STEP_3_INSPECT_RED_BOX"]
+    min_duration_sec: 1.0
+    timeout_sec: 30.0
+
+  - id: 5
+    code: "STEP_5_EXECUTE_INTERACTION"
+    name: "Perform Sample Interaction / Payload Slot Insert"
+    description: "Perform reagent transfer, sensor coupling, or slot insertion with both containers active."
+    target_object: "payload_slot"
+    expected_action: "interact_slot"
+    voice_prompt: "Both containers ready. Step five: Execute sample interaction or slot insertion."
+    voice_alert_skip: "Protocol anomaly! Cannot execute interaction without both active containers."
+    prerequisites: ["STEP_4_EXTRACT_YELLOW_BOX"]
+    min_duration_sec: 2.0
+    timeout_sec: 60.0
+
+  - id: 6
+    code: "STEP_6_RETURN_BOXES"
+    name: "Return Red & Yellow Boxes to Containment"
+    description: "Place both Red and Yellow containers back into their designated compartments in the main box."
+    target_object: "main_box"
+    expected_action: "insert_object"
+    voice_prompt: "Interaction complete. Step six: Return both Red and Yellow boxes into the main container."
+    voice_alert_skip: "Safety violation! Loose items detected. Secure Red and Yellow boxes inside main unit."
+    prerequisites: ["STEP_5_EXECUTE_INTERACTION"]
+    min_duration_sec: 1.5
+    timeout_sec: 40.0
+
+  - id: 7
+    code: "STEP_7_CLOSE_MAIN_BOX"
+    name: "Close & Latch Main Containment Box"
+    description: "Close the lid of the main containment box and lock the safety latches securely."
+    target_object: "main_box"
+    expected_action: "close_box"
+    voice_prompt: "Specimens stowed. Step seven: Close and lock the main containment box."
+    voice_alert_skip: "Alert! Containment box left unlatched. Ensure main box is closed."
+    prerequisites: ["STEP_6_RETURN_BOXES"]
+    min_duration_sec: 1.0
+    timeout_sec: 30.0
+
+completion_message: "Protocol ISRO-BAS-26174 completed successfully. All telemetry logged and verified."

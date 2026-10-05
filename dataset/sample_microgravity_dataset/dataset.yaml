@@ -1,0 +1,10 @@
+# YOLOv8 Microgravity Training Configuration
+path: dataset/sample_microgravity_dataset
+train: images/train
+val: images/val
+
+names:
+  0: main_box
+  1: red_box
+  2: yellow_box
+  3: astronaut_hand

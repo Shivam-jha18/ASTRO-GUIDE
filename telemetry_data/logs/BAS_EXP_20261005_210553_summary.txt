@@ -1,0 +1,107 @@
+==============================================================================
+BHARATIYA ANTARIKSH STATION (BAS) - ON-BOARD EXPERIMENT VERIFICATION REPORT
+==============================================================================
+Mission / Payload:     BHARATIYA_ANTARIKSH_STATION_IVA
+Session ID:            BAS_EXP_20261005_210553
+Report Generated (UTC):2026-10-05 15:43:51 UTC
+Hardware Platform:     EDGE_PAYLOAD_AI_01 (Offline Standalone Operation)
+Protocol Code:         ISRO_BAS_EXP_26174
+Protocol Title:        Microgravity Dual-Containment Sample Experiment (Red & Yellow Box)
+Completion Status:     IN PROGRESS / PARTIAL
+Overall Progress:      14%
+Total Elapsed Time:    478.7 seconds
+------------------------------------------------------------------------------
+CONDUCTED EXPERIMENT STEPS & OUTCOMES:
+------------------------------------------------------------------------------
+ID   STEP NAME                          TARGET       DURATION   STATUS      
+------------------------------------------------------------------------------
+1    Unlatch & Open Main Containment B  main_box     119.8s     [COMPLETED] 
+     -> ⚠️ ANOMALY: [OUT_OF_SEQUENCE] Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'.
+     -> ⚠️ ANOMALY: [OUT_OF_SEQUENCE] Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.
+     -> ⚠️ ANOMALY: [OUT_OF_SEQUENCE] Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'.
+     -> ⚠️ ANOMALY: [OUT_OF_SEQUENCE] Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.
+     -> ⚠️ ANOMALY: [OUT_OF_SEQUENCE] Out of sequence action detected! Extraneous action performed before completing 'Unlatch & Open Main Containment Box'.
+2    Identify & Extract Red Box         red_box      0.0s       [IN_PROGRESS]
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+     -> ⚠️ ANOMALY: [OUT_OF_SEQUENCE] Out of sequence action detected! Extraneous action performed before completing 'Identify & Extract Red Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+     -> ⚠️ ANOMALY: [OUT_OF_SEQUENCE] Out of sequence action detected! Extraneous action performed before completing 'Identify & Extract Red Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+     -> ⚠️ ANOMALY: [STEP_SKIPPED] Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+3    Inspect / Open Red Specimen Box    red_box      0.0s       [PENDING]   
+4    Identify & Extract Yellow Box      yellow_box   0.0s       [PENDING]   
+5    Perform Sample Interaction / Payl  payload_slo  0.0s       [PENDING]   
+6    Return Red & Yellow Boxes to Cont  main_box     0.0s       [PENDING]   
+7    Close & Latch Main Containment Bo  main_box     0.0s       [PENDING]   
+------------------------------------------------------------------------------
+MISSION AUDIT & ANOMALY SUMMARY:
+Total Anomalies Logged: 64
+Protocol Compliance:   64 ANOMALY EVENT(S) DETECTED AND RESOLVED
+------------------------------------------------------------------------------
+RECENT TELEMETRY EVENTS STREAM:
+  2026-10-05T15:43:03Z | ANOMALY_ALERT    | Step 2: VIOLATION | Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+  2026-10-05T15:43:07Z | ANOMALY_ALERT    | Step 2: VIOLATION | Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+  2026-10-05T15:43:11Z | ANOMALY_ALERT    | Step 2: VIOLATION | Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+  2026-10-05T15:43:15Z | ANOMALY_ALERT    | Step 2: VIOLATION | Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+  2026-10-05T15:43:19Z | ANOMALY_ALERT    | Step 2: VIOLATION | Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+  2026-10-05T15:43:23Z | ANOMALY_ALERT    | Step 2: VIOLATION | Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+  2026-10-05T15:43:27Z | ANOMALY_ALERT    | Step 2: VIOLATION | Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+  2026-10-05T15:43:31Z | ANOMALY_ALERT    | Step 2: VIOLATION | Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+  2026-10-05T15:43:35Z | ANOMALY_ALERT    | Step 2: VIOLATION | Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+  2026-10-05T15:43:39Z | ANOMALY_ALERT    | Step 2: VIOLATION | Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.
+==============================================================================
+END OF STRUCTURED TELEMETRY REPORT [ARCHIVED LOCALLY]
+==============================================================================

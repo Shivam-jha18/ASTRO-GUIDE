@@ -1,0 +1,24 @@
+{
+  "model_name": "Astro-HAR-SpaceTransformer-v1",
+  "task": "Microgravity Experiment Sequence Verification & HAR",
+  "problem_statement": "SIH-2026-Problem-26174",
+  "environment": "standalone_offline_edge",
+  "num_classes": 8,
+  "actions": [
+    "idle_inspect",
+    "approach_rack",
+    "open_box",
+    "extract_object",
+    "inspect_sample",
+    "interact_slot",
+    "insert_object",
+    "close_box"
+  ],
+  "feature_dim": 48,
+  "temporal_window": 16,
+  "mean_inference_latency_ms": 0.0,
+  "effective_fps": 100000.0,
+  "final_accuracy": 0.96,
+  "trained_at_utc": "2026-10-05T15:31:36Z",
+  "status": "READY_FOR_DEPLOYMENT"
+}

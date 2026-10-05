@@ -1,0 +1,299 @@
+{
+  "metadata": {
+    "mission": "BHARATIYA_ANTARIKSH_STATION_IVA",
+    "spacecraft_unit": "EDGE_PAYLOAD_AI_01",
+    "session_id": "BAS_EXP_20261005_211403",
+    "created_at_utc": "2026-10-05T15:45:04Z",
+    "format_version": "1.0-SIH26174"
+  },
+  "protocol_summary": {
+    "mission": "BHARATIYA_ANTARIKSH_STATION_IVA",
+    "protocol_code": "ISRO_BAS_EXP_26174",
+    "protocol_title": "Microgravity Dual-Containment Sample Experiment (Red & Yellow Box)",
+    "is_completed": false,
+    "total_duration_sec": 60.36,
+    "current_step_id": 1,
+    "next_suggested_step": {
+      "id": 2,
+      "code": "STEP_2_EXTRACT_RED_BOX",
+      "name": "Identify & Extract Red Box",
+      "description": "Locate and extract the Red specimen container from the main containment box.",
+      "target_object": "red_box",
+      "expected_action": "extract_object",
+      "voice_prompt": "Main box opened. Step two: Please retrieve the Red specimen box.",
+      "voice_alert_skip": "Warning! Out-of-order execution. Retrieve Red specimen container first.",
+      "prerequisites": [
+        "STEP_1_OPEN_MAIN_BOX"
+      ],
+      "min_duration_sec": 1.0,
+      "timeout_sec": 30.0
+    },
+    "total_steps": 7,
+    "completion_percentage": 0,
+    "steps": [
+      {
+        "id": 1,
+        "code": "STEP_1_OPEN_MAIN_BOX",
+        "name": "Unlatch & Open Main Containment Box",
+        "description": "Approach payload rack, disengage safety latches, and open the main containment lid.",
+        "target_object": "main_box",
+        "expected_action": "open_box",
+        "status": "IN_PROGRESS",
+        "start_time": 1791215043.7726538,
+        "end_time": null,
+        "duration_sec": 0.0,
+        "anomalies": [
+          {
+            "timestamp": 1791215043.9382725,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Close & Latch Main Containment Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Close & Latch Main Containment Box.",
+            "detected_step": "STEP_7_CLOSE_MAIN_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215073.1551118,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Close & Latch Main Containment Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Close & Latch Main Containment Box.",
+            "detected_step": "STEP_7_CLOSE_MAIN_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215077.158371,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Close & Latch Main Containment Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Close & Latch Main Containment Box.",
+            "detected_step": "STEP_7_CLOSE_MAIN_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215081.1850784,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Close & Latch Main Containment Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Close & Latch Main Containment Box.",
+            "detected_step": "STEP_7_CLOSE_MAIN_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215085.1948874,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Close & Latch Main Containment Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Close & Latch Main Containment Box.",
+            "detected_step": "STEP_7_CLOSE_MAIN_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215089.2004855,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Close & Latch Main Containment Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Close & Latch Main Containment Box.",
+            "detected_step": "STEP_7_CLOSE_MAIN_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215093.2141573,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Close & Latch Main Containment Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Close & Latch Main Containment Box.",
+            "detected_step": "STEP_7_CLOSE_MAIN_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215097.2254806,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Close & Latch Main Containment Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Close & Latch Main Containment Box.",
+            "detected_step": "STEP_7_CLOSE_MAIN_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791215101.2528245,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Close & Latch Main Containment Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Close & Latch Main Containment Box.",
+            "detected_step": "STEP_7_CLOSE_MAIN_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          }
+        ],
+        "confidence": 0.0
+      },
+      {
+        "id": 2,
+        "code": "STEP_2_EXTRACT_RED_BOX",
+        "name": "Identify & Extract Red Box",
+        "description": "Locate and extract the Red specimen container from the main containment box.",
+        "target_object": "red_box",
+        "expected_action": "extract_object",
+        "status": "PENDING",
+        "start_time": null,
+        "end_time": null,
+        "duration_sec": 0.0,
+        "anomalies": [],
+        "confidence": 0.0
+      },
+      {
+        "id": 3,
+        "code": "STEP_3_INSPECT_RED_BOX",
+        "name": "Inspect / Open Red Specimen Box",
+        "description": "Open and visually verify the sample inside the Red specimen container.",
+        "target_object": "red_box",
+        "expected_action": "inspect_sample",
+        "status": "PENDING",
+        "start_time": null,
+        "end_time": null,
+        "duration_sec": 0.0,
+        "anomalies": [],
+        "confidence": 0.0
+      },
+      {
+        "id": 4,
+        "code": "STEP_4_EXTRACT_YELLOW_BOX",
+        "name": "Identify & Extract Yellow Box",
+        "description": "Retrieve the secondary Yellow reagent/tool box from the main containment box.",
+        "target_object": "yellow_box",
+        "expected_action": "extract_object",
+        "status": "PENDING",
+        "start_time": null,
+        "end_time": null,
+        "duration_sec": 0.0,
+        "anomalies": [],
+        "confidence": 0.0
+      },
+      {
+        "id": 5,
+        "code": "STEP_5_EXECUTE_INTERACTION",
+        "name": "Perform Sample Interaction / Payload Slot Insert",
+        "description": "Perform reagent transfer, sensor coupling, or slot insertion with both containers active.",
+        "target_object": "payload_slot",
+        "expected_action": "interact_slot",
+        "status": "PENDING",
+        "start_time": null,
+        "end_time": null,
+        "duration_sec": 0.0,
+        "anomalies": [],
+        "confidence": 0.0
+      },
+      {
+        "id": 6,
+        "code": "STEP_6_RETURN_BOXES",
+        "name": "Return Red & Yellow Boxes to Containment",
+        "description": "Place both Red and Yellow containers back into their designated compartments in the main box.",
+        "target_object": "main_box",
+        "expected_action": "insert_object",
+        "status": "PENDING",
+        "start_time": null,
+        "end_time": null,
+        "duration_sec": 0.0,
+        "anomalies": [],
+        "confidence": 0.0
+      },
+      {
+        "id": 7,
+        "code": "STEP_7_CLOSE_MAIN_BOX",
+        "name": "Close & Latch Main Containment Box",
+        "description": "Close the lid of the main containment box and lock the safety latches securely.",
+        "target_object": "main_box",
+        "expected_action": "close_box",
+        "status": "PENDING",
+        "start_time": null,
+        "end_time": null,
+        "duration_sec": 0.0,
+        "anomalies": [],
+        "confidence": 0.0
+      }
+    ]
+  },
+  "event_stream": [
+    {
+      "timestamp_iso": "2026-10-05T15:44:03Z",
+      "unix_time": 1791215043.938,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Close & Latch Main Containment Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:44:33Z",
+      "unix_time": 1791215073.155,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Close & Latch Main Containment Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:44:37Z",
+      "unix_time": 1791215077.158,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Close & Latch Main Containment Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:44:41Z",
+      "unix_time": 1791215081.186,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Close & Latch Main Containment Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:44:45Z",
+      "unix_time": 1791215085.195,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Close & Latch Main Containment Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:44:49Z",
+      "unix_time": 1791215089.201,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Close & Latch Main Containment Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:44:53Z",
+      "unix_time": 1791215093.215,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Close & Latch Main Containment Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:44:57Z",
+      "unix_time": 1791215097.225,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Close & Latch Main Containment Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:45:01Z",
+      "unix_time": 1791215101.254,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Close & Latch Main Containment Box' before completing 'Unlatch & Open Main Containment Box'."
+    }
+  ]
+}

@@ -1,0 +1,1300 @@
+{
+  "metadata": {
+    "mission": "BHARATIYA_ANTARIKSH_STATION_IVA",
+    "spacecraft_unit": "EDGE_PAYLOAD_AI_01",
+    "session_id": "BAS_EXP_20261005_210553",
+    "created_at_utc": "2026-10-05T15:43:51Z",
+    "format_version": "1.0-SIH26174"
+  },
+  "protocol_summary": {
+    "mission": "BHARATIYA_ANTARIKSH_STATION_IVA",
+    "protocol_code": "ISRO_BAS_EXP_26174",
+    "protocol_title": "Microgravity Dual-Containment Sample Experiment (Red & Yellow Box)",
+    "is_completed": false,
+    "total_duration_sec": 478.7,
+    "current_step_id": 2,
+    "next_suggested_step": {
+      "id": 3,
+      "code": "STEP_3_INSPECT_RED_BOX",
+      "name": "Inspect / Open Red Specimen Box",
+      "description": "Open and visually verify the sample inside the Red specimen container.",
+      "target_object": "red_box",
+      "expected_action": "inspect_sample",
+      "voice_prompt": "Red box extracted. Step three: Inspect the specimen inside the Red box.",
+      "voice_alert_skip": "Caution! Specimen verification omitted. Inspect Red box before continuing.",
+      "prerequisites": [
+        "STEP_2_EXTRACT_RED_BOX"
+      ],
+      "min_duration_sec": 1.5,
+      "timeout_sec": 30.0
+    },
+    "total_steps": 7,
+    "completion_percentage": 14,
+    "steps": [
+      {
+        "id": 1,
+        "code": "STEP_1_OPEN_MAIN_BOX",
+        "name": "Unlatch & Open Main Containment Box",
+        "description": "Approach payload rack, disengage safety latches, and open the main containment lid.",
+        "target_object": "main_box",
+        "expected_action": "open_box",
+        "status": "COMPLETED",
+        "start_time": 1791214553.1252716,
+        "end_time": 1791214672.9278946,
+        "duration_sec": 119.8,
+        "anomalies": [
+          {
+            "timestamp": 1791214561.3308983,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'.",
+            "voice_alert": "Warning! Out-of-order execution. Retrieve Red specimen container first.",
+            "detected_step": "STEP_2_EXTRACT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791214565.3462067,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'.",
+            "voice_alert": "Warning! Out-of-order execution. Retrieve Red specimen container first.",
+            "detected_step": "STEP_2_EXTRACT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791214569.347809,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Inspect / Open Red Specimen Box.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791214573.3604975,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Inspect / Open Red Specimen Box.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791214577.3868778,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Inspect / Open Red Specimen Box.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791214581.3884826,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791214585.3992712,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791214602.1511357,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791214606.1548848,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791214610.1584294,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'.",
+            "voice_alert": "Warning! Out-of-order execution. Retrieve Red specimen container first.",
+            "detected_step": "STEP_2_EXTRACT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791214626.1909184,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'.",
+            "voice_alert": "Warning! Out-of-order execution. Retrieve Red specimen container first.",
+            "detected_step": "STEP_2_EXTRACT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791214630.191323,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Inspect / Open Red Specimen Box.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791214634.191609,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Inspect / Open Red Specimen Box.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791214638.202986,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Inspect / Open Red Specimen Box.",
+            "detected_step": "STEP_3_INSPECT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791214642.2141612,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791214646.2187119,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791214662.2649143,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791214666.2657623,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Unlatch & Open Main Containment Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1791214668.9001641,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of sequence action detected! Extraneous action performed before completing 'Unlatch & Open Main Containment Box'.",
+            "voice_alert": "Alert! Out of sequence action detected. Please complete Unlatch & Open Main Containment Box first.",
+            "detected_step": "STEP_OUT_OF_SEQUENCE",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          }
+        ],
+        "confidence": 0.0
+      },
+      {
+        "id": 2,
+        "code": "STEP_2_EXTRACT_RED_BOX",
+        "name": "Identify & Extract Red Box",
+        "description": "Locate and extract the Red specimen container from the main containment box.",
+        "target_object": "red_box",
+        "expected_action": "extract_object",
+        "status": "IN_PROGRESS",
+        "start_time": 1791214672.9278946,
+        "end_time": null,
+        "duration_sec": 0.0,
+        "anomalies": [
+          {
+            "timestamp": 1791214674.8547306,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Identify & Extract Red Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_2_EXTRACT_RED_BOX"
+          },
+          {
+            "timestamp": 1791214678.869811,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Identify & Extract Red Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_2_EXTRACT_RED_BOX"
+          },
+          {
+            "timestamp": 1791214682.8719683,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Identify & Extract Red Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_2_EXTRACT_RED_BOX"
+          },
+          {
+            "timestamp": 1791214686.877256,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Identify & Extract Red Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_2_EXTRACT_RED_BOX"
+          },
+          {
+            "timestamp": 1791214690.883236,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Identify & Extract Red Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_2_EXTRACT_RED_BOX"
+          },
+          {
+            "timestamp": 1791214694.8964229,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Identify & Extract Red Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_2_EXTRACT_RED_BOX"
+          },
+          {
+            "timestamp": 1791214698.9259558,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Identify & Extract Red Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_2_EXTRACT_RED_BOX"
+          },
+          {
+            "timestamp": 1791214702.926378,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Identify & Extract Red Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_2_EXTRACT_RED_BOX"
+          },
+          {
+            "timestamp": 1791214706.9519992,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Identify & Extract Red Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_2_EXTRACT_RED_BOX"
+          },
+          {
+            "timestamp": 1791214743.0296204,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Identify & Extract Red Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_2_EXTRACT_RED_BOX"
+          },
+          {
+            "timestamp": 1791214746.4052892,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of sequence action detected! Extraneous action performed before completing 'Identify & Extract Red Box'.",
+            "voice_alert": "Alert! Out of sequence action detected. Please complete Identify & Extract Red Box first.",
+            "detected_step": "STEP_OUT_OF_SEQUENCE",
+            "expected_step": "STEP_2_EXTRACT_RED_BOX"
+          },
+          {
+            "timestamp": 1791214747.0548334,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Identify & Extract Red Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_2_EXTRACT_RED_BOX"
+          },
+          {
+            "timestamp": 1791214751.0610986,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Identify & Extract Red Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_2_EXTRACT_RED_BOX"
+          },
+          {
+            "timestamp": 1791214751.807851,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of sequence action detected! Extraneous action performed before completing 'Identify & Extract Red Box'.",
+            "voice_alert": "Alert! Out of sequence action detected. Please complete Identify & Extract Red Box first.",
+            "detected_step": "STEP_OUT_OF_SEQUENCE",
+            "expected_step": "STEP_2_EXTRACT_RED_BOX"
+          },
+          {
+            "timestamp": 1791214755.0768695,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Identify & Extract Red Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_2_EXTRACT_RED_BOX"
+          },
+          {
+            "timestamp": 1791214759.0949523,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Identify & Extract Red Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_2_EXTRACT_RED_BOX"
+          },
+          {
+            "timestamp": 1791214763.1045444,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Identify & Extract Red Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_2_EXTRACT_RED_BOX"
+          },
+          {
+            "timestamp": 1791214767.120325,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Identify & Extract Red Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_2_EXTRACT_RED_BOX"
+          },
+          {
+            "timestamp": 1791214771.1287446,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Identify & Extract Red Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_2_EXTRACT_RED_BOX"
+          },
+          {
+            "timestamp": 1791214775.1287496,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Identify & Extract Red Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_2_EXTRACT_RED_BOX"
+          },
+          {
+            "timestamp": 1791214839.2646408,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Identify & Extract Red Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_2_EXTRACT_RED_BOX"
+          },
+          {
+            "timestamp": 1791214843.2906318,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Identify & Extract Red Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_2_EXTRACT_RED_BOX"
+          },
+          {
+            "timestamp": 1791214847.3009846,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Identify & Extract Red Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_2_EXTRACT_RED_BOX"
+          },
+          {
+            "timestamp": 1791214851.301154,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Identify & Extract Red Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_2_EXTRACT_RED_BOX"
+          },
+          {
+            "timestamp": 1791214855.3062658,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Identify & Extract Red Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_2_EXTRACT_RED_BOX"
+          },
+          {
+            "timestamp": 1791214859.3095477,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Identify & Extract Red Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_2_EXTRACT_RED_BOX"
+          },
+          {
+            "timestamp": 1791214863.3159413,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Identify & Extract Red Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_2_EXTRACT_RED_BOX"
+          },
+          {
+            "timestamp": 1791214867.3221273,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Identify & Extract Red Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_2_EXTRACT_RED_BOX"
+          },
+          {
+            "timestamp": 1791214871.3314877,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Identify & Extract Red Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_2_EXTRACT_RED_BOX"
+          },
+          {
+            "timestamp": 1791214927.4692569,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Identify & Extract Red Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_2_EXTRACT_RED_BOX"
+          },
+          {
+            "timestamp": 1791214931.4766347,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Identify & Extract Red Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_2_EXTRACT_RED_BOX"
+          },
+          {
+            "timestamp": 1791214935.4867618,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Identify & Extract Red Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_2_EXTRACT_RED_BOX"
+          },
+          {
+            "timestamp": 1791214939.4930084,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Identify & Extract Red Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_2_EXTRACT_RED_BOX"
+          },
+          {
+            "timestamp": 1791214943.516349,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Identify & Extract Red Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_2_EXTRACT_RED_BOX"
+          },
+          {
+            "timestamp": 1791214979.5923507,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Identify & Extract Red Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_2_EXTRACT_RED_BOX"
+          },
+          {
+            "timestamp": 1791214983.6034527,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Identify & Extract Red Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_2_EXTRACT_RED_BOX"
+          },
+          {
+            "timestamp": 1791214987.6128263,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Identify & Extract Red Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_2_EXTRACT_RED_BOX"
+          },
+          {
+            "timestamp": 1791214991.6355507,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Identify & Extract Red Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_2_EXTRACT_RED_BOX"
+          },
+          {
+            "timestamp": 1791214995.639158,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Identify & Extract Red Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_2_EXTRACT_RED_BOX"
+          },
+          {
+            "timestamp": 1791214999.6489754,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Identify & Extract Red Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_2_EXTRACT_RED_BOX"
+          },
+          {
+            "timestamp": 1791215003.6530938,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Identify & Extract Red Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_2_EXTRACT_RED_BOX"
+          },
+          {
+            "timestamp": 1791215007.6651967,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Identify & Extract Red Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_2_EXTRACT_RED_BOX"
+          },
+          {
+            "timestamp": 1791215011.6760752,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Identify & Extract Red Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_2_EXTRACT_RED_BOX"
+          },
+          {
+            "timestamp": 1791215015.6786933,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Identify & Extract Red Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_2_EXTRACT_RED_BOX"
+          },
+          {
+            "timestamp": 1791215019.689288,
+            "type": "STEP_SKIPPED",
+            "message": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'.",
+            "voice_alert": "Alert! Protocol step skipped. You must complete Identify & Extract Red Box before starting Identify & Extract Yellow Box.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_2_EXTRACT_RED_BOX"
+          }
+        ],
+        "confidence": 0.0
+      },
+      {
+        "id": 3,
+        "code": "STEP_3_INSPECT_RED_BOX",
+        "name": "Inspect / Open Red Specimen Box",
+        "description": "Open and visually verify the sample inside the Red specimen container.",
+        "target_object": "red_box",
+        "expected_action": "inspect_sample",
+        "status": "PENDING",
+        "start_time": null,
+        "end_time": null,
+        "duration_sec": 0.0,
+        "anomalies": [],
+        "confidence": 0.0
+      },
+      {
+        "id": 4,
+        "code": "STEP_4_EXTRACT_YELLOW_BOX",
+        "name": "Identify & Extract Yellow Box",
+        "description": "Retrieve the secondary Yellow reagent/tool box from the main containment box.",
+        "target_object": "yellow_box",
+        "expected_action": "extract_object",
+        "status": "PENDING",
+        "start_time": null,
+        "end_time": null,
+        "duration_sec": 0.0,
+        "anomalies": [],
+        "confidence": 0.0
+      },
+      {
+        "id": 5,
+        "code": "STEP_5_EXECUTE_INTERACTION",
+        "name": "Perform Sample Interaction / Payload Slot Insert",
+        "description": "Perform reagent transfer, sensor coupling, or slot insertion with both containers active.",
+        "target_object": "payload_slot",
+        "expected_action": "interact_slot",
+        "status": "PENDING",
+        "start_time": null,
+        "end_time": null,
+        "duration_sec": 0.0,
+        "anomalies": [],
+        "confidence": 0.0
+      },
+      {
+        "id": 6,
+        "code": "STEP_6_RETURN_BOXES",
+        "name": "Return Red & Yellow Boxes to Containment",
+        "description": "Place both Red and Yellow containers back into their designated compartments in the main box.",
+        "target_object": "main_box",
+        "expected_action": "insert_object",
+        "status": "PENDING",
+        "start_time": null,
+        "end_time": null,
+        "duration_sec": 0.0,
+        "anomalies": [],
+        "confidence": 0.0
+      },
+      {
+        "id": 7,
+        "code": "STEP_7_CLOSE_MAIN_BOX",
+        "name": "Close & Latch Main Containment Box",
+        "description": "Close the lid of the main containment box and lock the safety latches securely.",
+        "target_object": "main_box",
+        "expected_action": "close_box",
+        "status": "PENDING",
+        "start_time": null,
+        "end_time": null,
+        "duration_sec": 0.0,
+        "anomalies": [],
+        "confidence": 0.0
+      }
+    ]
+  },
+  "event_stream": [
+    {
+      "timestamp_iso": "2026-10-05T15:36:01Z",
+      "unix_time": 1791214561.331,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:36:05Z",
+      "unix_time": 1791214565.347,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:36:09Z",
+      "unix_time": 1791214569.349,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:36:13Z",
+      "unix_time": 1791214573.36,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:36:17Z",
+      "unix_time": 1791214577.387,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:36:21Z",
+      "unix_time": 1791214581.388,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:36:25Z",
+      "unix_time": 1791214585.399,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:36:42Z",
+      "unix_time": 1791214602.151,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:36:46Z",
+      "unix_time": 1791214606.156,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:36:50Z",
+      "unix_time": 1791214610.158,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:37:06Z",
+      "unix_time": 1791214626.191,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:37:10Z",
+      "unix_time": 1791214630.191,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:37:14Z",
+      "unix_time": 1791214634.193,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:37:18Z",
+      "unix_time": 1791214638.203,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Inspect / Open Red Specimen Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:37:22Z",
+      "unix_time": 1791214642.214,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:37:26Z",
+      "unix_time": 1791214646.219,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:37:42Z",
+      "unix_time": 1791214662.265,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:37:46Z",
+      "unix_time": 1791214666.267,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:37:48Z",
+      "unix_time": 1791214668.9,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of sequence action detected! Extraneous action performed before completing 'Unlatch & Open Main Containment Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:37:52Z",
+      "unix_time": 1791214672.928,
+      "event_type": "STEP_COMPLETED",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "SUCCESS",
+      "duration_sec": 119.8,
+      "anomaly_details": "None"
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:37:54Z",
+      "unix_time": 1791214674.855,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:37:58Z",
+      "unix_time": 1791214678.87,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:38:02Z",
+      "unix_time": 1791214682.872,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:38:06Z",
+      "unix_time": 1791214686.878,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:38:10Z",
+      "unix_time": 1791214690.883,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:38:14Z",
+      "unix_time": 1791214694.896,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:38:18Z",
+      "unix_time": 1791214698.926,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:38:22Z",
+      "unix_time": 1791214702.926,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:38:26Z",
+      "unix_time": 1791214706.952,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:39:03Z",
+      "unix_time": 1791214743.03,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:39:06Z",
+      "unix_time": 1791214746.405,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of sequence action detected! Extraneous action performed before completing 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:39:07Z",
+      "unix_time": 1791214747.056,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:39:11Z",
+      "unix_time": 1791214751.061,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:39:11Z",
+      "unix_time": 1791214751.808,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of sequence action detected! Extraneous action performed before completing 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:39:15Z",
+      "unix_time": 1791214755.077,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:39:19Z",
+      "unix_time": 1791214759.096,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:39:23Z",
+      "unix_time": 1791214763.106,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:39:27Z",
+      "unix_time": 1791214767.121,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:39:31Z",
+      "unix_time": 1791214771.129,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:39:35Z",
+      "unix_time": 1791214775.129,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:40:39Z",
+      "unix_time": 1791214839.265,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:40:43Z",
+      "unix_time": 1791214843.291,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:40:47Z",
+      "unix_time": 1791214847.306,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:40:51Z",
+      "unix_time": 1791214851.301,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:40:55Z",
+      "unix_time": 1791214855.306,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:40:59Z",
+      "unix_time": 1791214859.311,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:41:03Z",
+      "unix_time": 1791214863.316,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:41:07Z",
+      "unix_time": 1791214867.322,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:41:11Z",
+      "unix_time": 1791214871.331,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:42:07Z",
+      "unix_time": 1791214927.469,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:42:11Z",
+      "unix_time": 1791214931.477,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:42:15Z",
+      "unix_time": 1791214935.487,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:42:19Z",
+      "unix_time": 1791214939.493,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:42:23Z",
+      "unix_time": 1791214943.516,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:42:59Z",
+      "unix_time": 1791214979.592,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:43:03Z",
+      "unix_time": 1791214983.603,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:43:07Z",
+      "unix_time": 1791214987.613,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:43:11Z",
+      "unix_time": 1791214991.636,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:43:15Z",
+      "unix_time": 1791214995.639,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:43:19Z",
+      "unix_time": 1791214999.649,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:43:23Z",
+      "unix_time": 1791215003.653,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:43:27Z",
+      "unix_time": 1791215007.665,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:43:31Z",
+      "unix_time": 1791215011.676,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:43:35Z",
+      "unix_time": 1791215015.68,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-10-05T15:43:39Z",
+      "unix_time": 1791215019.69,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Step skipped! Attempting 'Identify & Extract Yellow Box' before completing 'Identify & Extract Red Box'."
+    }
+  ]
+}

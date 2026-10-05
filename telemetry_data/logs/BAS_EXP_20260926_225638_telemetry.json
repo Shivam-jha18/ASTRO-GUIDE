@@ -1,0 +1,1758 @@
+{
+  "metadata": {
+    "mission": "BHARATIYA_ANTARIKSH_STATION_IVA",
+    "spacecraft_unit": "EDGE_PAYLOAD_AI_01",
+    "session_id": "BAS_EXP_20260926_225638",
+    "created_at_utc": "2026-09-26T17:41:08Z",
+    "format_version": "1.0-SIH26174"
+  },
+  "protocol_summary": {
+    "mission": "BHARATIYA_ANTARIKSH_STATION_IVA",
+    "protocol_code": "ISRO_BAS_EXP_26174",
+    "protocol_title": "Microgravity Dual-Containment Sample Experiment (Red & Yellow Box)",
+    "is_completed": false,
+    "total_duration_sec": 757.17,
+    "current_step_id": 1,
+    "total_steps": 7,
+    "completion_percentage": 0,
+    "steps": [
+      {
+        "id": 1,
+        "code": "STEP_1_OPEN_MAIN_BOX",
+        "name": "Unlatch & Open Main Containment Box",
+        "description": "Approach payload rack, disengage safety latches, and open the main containment lid.",
+        "target_object": "main_box",
+        "expected_action": "open_box",
+        "status": "IN_PROGRESS",
+        "start_time": 1790443711.525114,
+        "end_time": null,
+        "duration_sec": 0.0,
+        "anomalies": [
+          {
+            "timestamp": 1790443711.5446587,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790443715.5566573,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'.",
+            "voice_alert": "Warning! Out-of-order execution. Retrieve Red specimen container first.",
+            "detected_step": "STEP_2_EXTRACT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790443719.5668175,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'.",
+            "voice_alert": "Warning! Out-of-order execution. Retrieve Red specimen container first.",
+            "detected_step": "STEP_2_EXTRACT_RED_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790443725.046442,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790443729.0560443,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790443733.066143,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790443737.0837874,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790443741.0986233,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790443745.1083584,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790443751.136301,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790443755.139998,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790443759.1489303,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790443763.1581404,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790443767.1652973,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790443771.181218,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790443827.3043103,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790443831.3141682,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790443835.3290472,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790443839.3305068,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790443843.3331149,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790443847.3466039,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790443899.4461946,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790443903.455449,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790443907.4618373,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790443911.4759355,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790443915.4845514,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790443919.4991608,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790443923.503051,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790443927.5151653,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790443931.525229,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790443935.5358114,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790443975.6422048,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790443979.6501372,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790443983.6547813,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790443987.661326,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790443991.6726491,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790443995.6864367,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790443999.6900642,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790444051.7861304,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790444055.8028445,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790444059.8069484,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790444063.8241332,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790444067.8341172,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790444123.9385877,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790444127.946844,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790444131.9618912,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790444135.9745944,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790444139.9751227,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790444143.97822,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790444188.0651417,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790444192.0773451,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790444196.0882483,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790444200.0910616,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790444236.1788454,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790444240.1841435,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790444244.1882687,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790444248.1904716,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790444252.2046955,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790444256.207224,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790444260.2222536,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790444300.3066869,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790444304.3196707,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790444308.3315132,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790444312.343828,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790444316.3551364,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790444320.3574615,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790444324.3668938,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790444360.4441426,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790444364.4597065,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790444368.4726799,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790444372.4756472,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790444376.494064,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790444432.6043837,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790444436.6200287,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790444440.6380365,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790444444.6505969,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790444448.6552842,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790444452.6600769,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790444456.6713989,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790444460.6739888,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790444464.6815448,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          },
+          {
+            "timestamp": 1790444468.6928415,
+            "type": "OUT_OF_SEQUENCE",
+            "message": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'.",
+            "voice_alert": "Alert! Yellow box extracted out of sequence. Red box procedure incomplete.",
+            "detected_step": "STEP_4_EXTRACT_YELLOW_BOX",
+            "expected_step": "STEP_1_OPEN_MAIN_BOX"
+          }
+        ],
+        "confidence": 0.0
+      },
+      {
+        "id": 2,
+        "code": "STEP_2_EXTRACT_RED_BOX",
+        "name": "Identify & Extract Red Box",
+        "description": "Locate and extract the Red specimen container from the main containment box.",
+        "target_object": "red_box",
+        "expected_action": "extract_object",
+        "status": "PENDING",
+        "start_time": null,
+        "end_time": null,
+        "duration_sec": 0.0,
+        "anomalies": [],
+        "confidence": 0.88
+      },
+      {
+        "id": 3,
+        "code": "STEP_3_INSPECT_RED_BOX",
+        "name": "Inspect / Open Red Specimen Box",
+        "description": "Open and visually verify the sample inside the Red specimen container.",
+        "target_object": "red_box",
+        "expected_action": "inspect_sample",
+        "status": "PENDING",
+        "start_time": null,
+        "end_time": null,
+        "duration_sec": 0.0,
+        "anomalies": [],
+        "confidence": 0.88
+      },
+      {
+        "id": 4,
+        "code": "STEP_4_EXTRACT_YELLOW_BOX",
+        "name": "Identify & Extract Yellow Box",
+        "description": "Retrieve the secondary Yellow reagent/tool box from the main containment box.",
+        "target_object": "yellow_box",
+        "expected_action": "extract_object",
+        "status": "PENDING",
+        "start_time": null,
+        "end_time": null,
+        "duration_sec": 0.0,
+        "anomalies": [],
+        "confidence": 0.88
+      },
+      {
+        "id": 5,
+        "code": "STEP_5_EXECUTE_INTERACTION",
+        "name": "Perform Sample Interaction / Payload Slot Insert",
+        "description": "Perform reagent transfer, sensor coupling, or slot insertion with both containers active.",
+        "target_object": "payload_slot",
+        "expected_action": "interact_slot",
+        "status": "PENDING",
+        "start_time": null,
+        "end_time": null,
+        "duration_sec": 0.0,
+        "anomalies": [],
+        "confidence": 0.0
+      },
+      {
+        "id": 6,
+        "code": "STEP_6_RETURN_BOXES",
+        "name": "Return Red & Yellow Boxes to Containment",
+        "description": "Place both Red and Yellow containers back into their designated compartments in the main box.",
+        "target_object": "main_box",
+        "expected_action": "insert_object",
+        "status": "PENDING",
+        "start_time": null,
+        "end_time": null,
+        "duration_sec": 0.0,
+        "anomalies": [],
+        "confidence": 0.0
+      },
+      {
+        "id": 7,
+        "code": "STEP_7_CLOSE_MAIN_BOX",
+        "name": "Close & Latch Main Containment Box",
+        "description": "Close the lid of the main containment box and lock the safety latches securely.",
+        "target_object": "main_box",
+        "expected_action": "close_box",
+        "status": "PENDING",
+        "start_time": null,
+        "end_time": null,
+        "duration_sec": 0.0,
+        "anomalies": [],
+        "confidence": 0.0
+      }
+    ]
+  },
+  "event_stream": [
+    {
+      "timestamp_iso": "2026-09-26T17:26:47Z",
+      "unix_time": 1790443607.144,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:26:51Z",
+      "unix_time": 1790443611.146,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:26:54Z",
+      "unix_time": 1790443614.339,
+      "event_type": "STEP_COMPLETED",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "SUCCESS",
+      "duration_sec": 15.94,
+      "anomaly_details": "None"
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:26:55Z",
+      "unix_time": 1790443615.147,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Identify & Extract Red Box', but detected 'Inspect / Open Red Specimen Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:26:59Z",
+      "unix_time": 1790443619.159,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Identify & Extract Red Box', but detected 'Inspect / Open Red Specimen Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:27:03Z",
+      "unix_time": 1790443623.169,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Identify & Extract Red Box', but detected 'Inspect / Open Red Specimen Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:27:07Z",
+      "unix_time": 1790443627.17,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Identify & Extract Red Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:27:11Z",
+      "unix_time": 1790443631.188,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Identify & Extract Red Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:27:28Z",
+      "unix_time": 1790443648.364,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Identify & Extract Red Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:27:32Z",
+      "unix_time": 1790443652.364,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Identify & Extract Red Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:27:33Z",
+      "unix_time": 1790443653.786,
+      "event_type": "STEP_COMPLETED",
+      "step_id": 2,
+      "step_name": "Identify & Extract Red Box",
+      "status": "SUCCESS",
+      "duration_sec": 39.45,
+      "anomaly_details": "None"
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:27:54Z",
+      "unix_time": 1790443674.931,
+      "event_type": "STEP_COMPLETED",
+      "step_id": 3,
+      "step_name": "Inspect / Open Red Specimen Box",
+      "status": "SUCCESS",
+      "duration_sec": 21.15,
+      "anomaly_details": "None"
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:28:07Z",
+      "unix_time": 1790443687.304,
+      "event_type": "STEP_COMPLETED",
+      "step_id": 4,
+      "step_name": "Identify & Extract Yellow Box",
+      "status": "SUCCESS",
+      "duration_sec": 12.37,
+      "anomaly_details": "None"
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:28:28Z",
+      "unix_time": 1790443708.44,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:28:30Z",
+      "unix_time": 1790443710.276,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:28:31Z",
+      "unix_time": 1790443711.545,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:28:35Z",
+      "unix_time": 1790443715.557,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:28:39Z",
+      "unix_time": 1790443719.567,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Red Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:28:39Z",
+      "unix_time": 1790443719.691,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of sequence execution! Yellow box extracted before Red box inspection."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:28:45Z",
+      "unix_time": 1790443725.046,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:28:49Z",
+      "unix_time": 1790443729.056,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:28:53Z",
+      "unix_time": 1790443733.066,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:28:57Z",
+      "unix_time": 1790443737.084,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:29:01Z",
+      "unix_time": 1790443741.099,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:29:05Z",
+      "unix_time": 1790443745.108,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:29:11Z",
+      "unix_time": 1790443751.136,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:29:15Z",
+      "unix_time": 1790443755.14,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:29:19Z",
+      "unix_time": 1790443759.15,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:29:23Z",
+      "unix_time": 1790443763.158,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:29:27Z",
+      "unix_time": 1790443767.17,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:29:31Z",
+      "unix_time": 1790443771.181,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:30:27Z",
+      "unix_time": 1790443827.304,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:30:31Z",
+      "unix_time": 1790443831.314,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:30:35Z",
+      "unix_time": 1790443835.329,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:30:39Z",
+      "unix_time": 1790443839.332,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:30:43Z",
+      "unix_time": 1790443843.333,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:30:47Z",
+      "unix_time": 1790443847.347,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:31:39Z",
+      "unix_time": 1790443899.446,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:31:43Z",
+      "unix_time": 1790443903.455,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:31:47Z",
+      "unix_time": 1790443907.463,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:31:51Z",
+      "unix_time": 1790443911.476,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:31:55Z",
+      "unix_time": 1790443915.486,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:31:59Z",
+      "unix_time": 1790443919.499,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:32:03Z",
+      "unix_time": 1790443923.503,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:32:07Z",
+      "unix_time": 1790443927.516,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:32:11Z",
+      "unix_time": 1790443931.526,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:32:15Z",
+      "unix_time": 1790443935.536,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:32:55Z",
+      "unix_time": 1790443975.642,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:32:59Z",
+      "unix_time": 1790443979.65,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:33:03Z",
+      "unix_time": 1790443983.655,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:33:07Z",
+      "unix_time": 1790443987.661,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:33:11Z",
+      "unix_time": 1790443991.673,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:33:15Z",
+      "unix_time": 1790443995.687,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:33:19Z",
+      "unix_time": 1790443999.69,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:34:11Z",
+      "unix_time": 1790444051.786,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:34:15Z",
+      "unix_time": 1790444055.806,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:34:19Z",
+      "unix_time": 1790444059.807,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:34:23Z",
+      "unix_time": 1790444063.824,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:34:27Z",
+      "unix_time": 1790444067.834,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:35:23Z",
+      "unix_time": 1790444123.939,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:35:27Z",
+      "unix_time": 1790444127.948,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:35:31Z",
+      "unix_time": 1790444131.962,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:35:35Z",
+      "unix_time": 1790444135.975,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:35:39Z",
+      "unix_time": 1790444139.975,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:35:43Z",
+      "unix_time": 1790444143.978,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:36:28Z",
+      "unix_time": 1790444188.065,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:36:32Z",
+      "unix_time": 1790444192.077,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:36:36Z",
+      "unix_time": 1790444196.088,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:36:40Z",
+      "unix_time": 1790444200.091,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:37:16Z",
+      "unix_time": 1790444236.179,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:37:20Z",
+      "unix_time": 1790444240.185,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:37:24Z",
+      "unix_time": 1790444244.188,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:37:28Z",
+      "unix_time": 1790444248.19,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:37:32Z",
+      "unix_time": 1790444252.205,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:37:36Z",
+      "unix_time": 1790444256.207,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:37:40Z",
+      "unix_time": 1790444260.223,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:38:20Z",
+      "unix_time": 1790444300.309,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:38:24Z",
+      "unix_time": 1790444304.32,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:38:28Z",
+      "unix_time": 1790444308.332,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:38:32Z",
+      "unix_time": 1790444312.344,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:38:36Z",
+      "unix_time": 1790444316.355,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:38:40Z",
+      "unix_time": 1790444320.357,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:38:44Z",
+      "unix_time": 1790444324.367,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:39:20Z",
+      "unix_time": 1790444360.444,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:39:24Z",
+      "unix_time": 1790444364.46,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:39:28Z",
+      "unix_time": 1790444368.476,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:39:32Z",
+      "unix_time": 1790444372.476,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:39:36Z",
+      "unix_time": 1790444376.494,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:40:32Z",
+      "unix_time": 1790444432.604,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:40:36Z",
+      "unix_time": 1790444436.621,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:40:40Z",
+      "unix_time": 1790444440.638,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:40:44Z",
+      "unix_time": 1790444444.651,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:40:48Z",
+      "unix_time": 1790444448.655,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:40:52Z",
+      "unix_time": 1790444452.66,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:40:56Z",
+      "unix_time": 1790444456.671,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:41:00Z",
+      "unix_time": 1790444460.674,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:41:04Z",
+      "unix_time": 1790444464.682,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    },
+    {
+      "timestamp_iso": "2026-09-26T17:41:08Z",
+      "unix_time": 1790444468.693,
+      "event_type": "ANOMALY_ALERT",
+      "step_id": 1,
+      "step_name": "Unlatch & Open Main Containment Box",
+      "status": "VIOLATION",
+      "duration_sec": 0.0,
+      "anomaly_details": "Out of order action detected! Expected 'Unlatch & Open Main Containment Box', but detected 'Identify & Extract Yellow Box'."
+    }
+  ]
+}

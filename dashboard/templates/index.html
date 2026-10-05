@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Astro-HAR Edge Mission Control | SIH 26174</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+  <!-- Top Mission Control Navigation Bar -->
+  <header class="mission-header" id="mission-header">
+    <div class="brand">
+      <div class="mission-badge" id="mission-badge">ISRO / BAS</div>
+      <div>
+        <div class="brand-title">Astro-HAR Autonomous Payload Monitor</div>
+        <div class="brand-subtitle">SIH-2026 // EDGE PROCESSING UNIT // PROBLEM 26174</div>
+      </div>
+    </div>
+
+    <div class="telemetry-strip">
+      <div class="stat-pill" title="Hardware SWaP Performance Profiler">
+        <span class="stat-label">Edge Profiler</span>
+        <span class="stat-value" id="prof-metric" style="color:var(--accent-green)">14.2ms / 60 FPS</span>
+      </div>
+      <div class="stat-pill">
+        <span class="stat-label">Mission Elapsed Time</span>
+        <span class="stat-value" id="met-clock">MET 00:00:00</span>
+      </div>
+      <div class="stat-pill">
+        <span class="stat-label">Hardware Unit</span>
+        <span class="stat-value" id="unit-id-val">EDGE-PAYLOAD-AI-01</span>
+      </div>
+      <div class="stat-pill">
+        <span class="stat-label">Experiment SOP</span>
+        <select class="protocol-select" id="protocol-selector" title="Switch between mission scientific protocols">
+          <option value="experiment_protocol">Dual-Containment (Red & Yellow Box)</option>
+          <option value="fluid_capillary_protocol">Fluid Capillary Dynamics</option>
+        </select>
+      </div>
+      <div class="status-indicator" id="status-indicator">
+        <span class="pulse-dot"></span> EDGE LINK ACTIVE
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Mission Control Grid -->
+  <main class="dashboard-container">
+    
+    <!-- Left Column: Video Feed & Real-time Perception HUD -->
+    <section class="hud-panel" id="panel-video">
+      <div class="panel-header">
+        <div class="panel-title">
+          <span>📹</span> PAYLOAD CAMERA STREAM (60 FPS EDGE PIPELINE)
+        </div>
+        <div class="video-ip-badge" id="video-stream-ip">RTSP/IP: 0.0.0.0:8080</div>
+      </div>
+
+      <div class="video-wrapper" id="video-viewport">
+        <div class="video-overlay-tag">CANONICAL RACK CALIBRATION: ACTIVE</div>
+        <img 
+          src="/stream/video_feed" 
+          alt="Payload Camera Feed" 
+          class="stream-frame" 
+          id="main-stream-img"
+        />
+      </div>
+
+      <!-- Anomaly Alert Banner (Flashes when out-of-order occurs) -->
+      <div class="alert-banner" id="anomaly-alert-banner">
+        <div class="alert-icon">⚠️</div>
+        <div class="alert-content">
+          <div class="alert-title" id="alert-banner-title">OUT-OF-ORDER STEP DETECTED</div>
+          <div class="alert-desc" id="alert-banner-desc">Yellow container picked prematurely. Please retrieve Red specimen box first.</div>
+        </div>
+      </div>
+
+      <!-- Quick Action Operator Controls -->
+      <div class="controls-bar" id="controls-toolbar">
+        <button class="btn btn-danger" id="btn-inject-out-of-sequence" title="Simulate out-of-sequence step addition">
+          ⚠️ Out-of-Sequence
+        </button>
+        <button class="btn btn-warning" id="btn-inject-skip-step" title="Simulate skipping a required SOP step">
+          ⏭️ Skip Step
+        </button>
+        <button class="btn" id="btn-force-next" title="Force Advance to Next Step">
+          ⏩ Next Step
+        </button>
+        <button class="btn" id="btn-reset-protocol" title="Restart Experiment Protocol">
+          🔄 Reset
+        </button>
+        <button class="btn" id="btn-toggle-audio" title="Mute or Unmute Voice Engine">
+          🔊 Voice: ON
+        </button>
+        <button class="btn btn-accent" id="btn-view-text-report" title="Inspect formatted structured text report in live pop-up">
+          👁️ View Report (.txt)
+        </button>
+        <button class="btn btn-primary" id="btn-download-text" title="Download timestamped structured lightweight text report (.txt)">
+          📄 Download Text
+        </button>
+        <button class="btn btn-primary" id="btn-download-telemetry" title="Download structured JSON telemetry report">
+          📥 Download JSON
+        </button>
+        <button class="btn" id="btn-download-video" title="Download recorded session MP4 video">
+          💾 Save MP4 Video
+        </button>
+      </div>
+
+      <!-- Telemetry Status Gauges -->
+      <div class="telemetry-grid">
+        <div class="gauge-card">
+          <div class="gauge-title">HOI Interaction Target</div>
+          <div class="gauge-val" id="gauge-hoi-target">NONE</div>
+        </div>
+        <div class="gauge-card">
+          <div class="gauge-title">Norm Distance to Object</div>
+          <div class="gauge-val" id="gauge-distance">0.00</div>
+        </div>
+        <div class="gauge-card">
+          <div class="gauge-title">Space-HAR Action</div>
+          <div class="gauge-val" id="gauge-action" style="color:var(--accent-amber)">IDLE_INSPECT</div>
+        </div>
+        <div class="gauge-card">
+          <div class="gauge-title">AI Action Confidence</div>
+          <div class="gauge-val" id="gauge-confidence" style="color:var(--accent-green)">92%</div>
+        </div>
+        <div class="gauge-card" style="grid-column: span 2;">
+          <div class="gauge-title">3D HMR Orientation-Agnostic Posture (Rack-Centric)</div>
+          <div class="gauge-val" id="gauge-hmr-orientation" style="font-size:13px; color:var(--accent-cyan)">
+            ROLL: 0° | PITCH: 0° | 0-G MESH: 95%
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Right Column: Protocol Verifier & Step Guidance -->
+    <section class="hud-panel" id="panel-protocol">
+      <div class="panel-header">
+        <div class="panel-title">
+          <span>📋</span> DYNAMIC FSM PROTOCOL VERIFIER
+        </div>
+        <div class="stat-value" id="progress-percent-val" style="color:var(--accent-green)">0%</div>
+      </div>
+
+      <!-- Overall Protocol Progress Bar -->
+      <div class="progress-bar-container">
+        <div class="progress-track">
+          <div class="progress-fill" id="progress-fill-bar"></div>
+        </div>
+      </div>
+
+      <!-- Current Active Step Card with Voice Prompt -->
+      <div class="active-step-card" id="active-step-container">
+        <div class="step-meta">
+          <span class="step-number" id="step-num-display">STEP 1 OF 7</span>
+          <span class="step-target-badge" id="step-target-display">MAIN_BOX</span>
+          <span class="step-status-tag tag-inprogress" id="step-status-tag">IN_PROGRESS</span>
+        </div>
+        <h3 class="step-name" id="step-name-display">Unlatch & Open Main Containment Box</h3>
+        <p class="step-desc" id="step-desc-display">Approach payload rack, disengage safety latches, and open the main containment lid.</p>
+        
+        <div class="voice-prompt-box">
+          <div class="voice-prompt-header">
+            <span class="voice-icon">🎙️</span>
+            <div class="voice-text" id="voice-prompt-text">"Protocol started. Step one: Please unlatch and open the main containment box."</div>
+          </div>
+          <div class="audio-waveform-box" id="audio-waveform-indicator">
+            <div class="waveform-bars">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+            <span class="waveform-status-text" id="waveform-status-text">OFFLINE TTS READY</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Proactive Next Step Suggestion Card (SIH 26174 Requirement) -->
+      <div class="next-step-suggestion-card" id="next-step-card">
+        <div class="next-step-header">
+          <span class="next-badge">PROACTIVE SUGGESTION</span>
+          <span class="next-tag" id="next-step-code">STEP 2</span>
+        </div>
+        <div class="next-step-title" id="next-step-title">Next: Identify & Extract Red Box</div>
+        <div class="next-step-prompt" id="next-step-prompt">
+          👉 Guidance: Once main containment is unlatched, retrieve the Red specimen container.
+        </div>
+      </div>
+
+      <!-- Protocol Steps Checklist -->
+      <div class="panel-title" style="font-size:12px; margin-top:4px;">
+        EXPERIMENT PROCEDURE CHECKLIST (RED & YELLOW BOX)
+      </div>
+      <div class="checklist-container" id="steps-checklist">
+        <!-- Generated Dynamically via WebSocket -->
+      </div>
+
+      <!-- Live Timestamped Event Log -->
+      <div class="panel-title" style="font-size:12px; margin-top:4px;">
+        REAL-TIME TELEMETRY EVENT STREAM
+      </div>
+      <div class="event-log-box" id="event-log-container">
+        <div class="log-entry"><span class="log-time">[SYSTEM]</span> Astro-HAR edge pipeline initialized. Zero-cloud mode active.</div>
+        <div class="log-entry"><span class="log-time">[FSM]</span> Experiment protocol loaded: ISRO_BAS_EXP_26174.</div>
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- In-GUI Telemetry Text Report Modal (SIH 26174 Feature) -->
+  <div class="modal-backdrop" id="telemetry-text-modal" style="display:none;">
+    <div class="modal-window">
+      <div class="modal-header">
+        <div class="modal-title">
+          <span>📄</span> ON-BOARD MISSION TELEMETRY TEXT REPORT (.TXT)
+        </div>
+        <div class="modal-actions">
+          <button class="btn btn-sm" id="btn-copy-text-report">📋 Copy</button>
+          <button class="btn btn-sm" id="btn-close-modal">✕ Close</button>
+        </div>
+      </div>
+      <div class="modal-body">
+        <pre class="telemetry-pre-viewer" id="telemetry-text-content">Loading structured mission report...</pre>
+      </div>
+    </div>
+  </div>
+
+  <script src="/static/js/dashboard.js"></script>
+</body>
+</html>

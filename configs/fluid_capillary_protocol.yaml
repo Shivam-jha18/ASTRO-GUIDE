@@ -1,0 +1,71 @@
+protocol_name: "ISRO_BAS_EXP_26175"
+protocol_title: "Microgravity Fluid Capillary Dynamics & Channel Flow Experiment"
+version: "1.0.0"
+author: "Smart India Hackathon 2026 - Problem 26174"
+description: >
+  Modular Standard Operating Procedure for zero-gravity capillary channel flow
+  verification aboard the Bharatiya Antariksh Station (BAS). Demonstrates multi-protocol
+  versatility of the Astro-HAR reasoning engine.
+
+steps:
+  - id: 1
+    code: "STEP_1_ALIGN_CAPILLARY_CHANNEL"
+    name: "Calibrate & Align Capillary Chamber"
+    description: "Align test chamber with rack optical observation axis and lock stabilization ring."
+    target_object: "main_box"
+    expected_action: "open_box"
+    voice_prompt: "Capillary protocol initiated. Step one: Please align and engage the fluid chamber."
+    voice_alert_skip: "Warning! Fluid injection attempted before chamber optical alignment."
+    prerequisites: []
+    min_duration_sec: 1.5
+    timeout_sec: 40.0
+
+  - id: 2
+    code: "STEP_2_INJECT_TRACER_FLUID"
+    name: "Inject Fluorescent Tracer Liquid"
+    description: "Retrieve micro-pipette cartridge and inject dye into primary test channel."
+    target_object: "red_box"
+    expected_action: "extract_object"
+    voice_prompt: "Chamber engaged. Step two: Retrieve the tracer fluid cartridge and inject into channel."
+    voice_alert_skip: "Alert! Sensor recording started before fluid injection completed."
+    prerequisites: ["STEP_1_ALIGN_CAPILLARY_CHANNEL"]
+    min_duration_sec: 1.0
+    timeout_sec: 30.0
+
+  - id: 3
+    code: "STEP_3_RECORD_FLOW_MENISCUS"
+    name: "Verify Meniscus Interface & Velocity"
+    description: "Visually observe zero-gravity capillary meniscus advance under UV illumination."
+    target_object: "red_box"
+    expected_action: "inspect_sample"
+    voice_prompt: "Tracer injected. Step three: Verify capillary meniscus advance on observation grid."
+    voice_alert_skip: "Caution! Valve purge attempted before recording capillary flow velocity."
+    prerequisites: ["STEP_2_INJECT_TRACER_FLUID"]
+    min_duration_sec: 1.5
+    timeout_sec: 35.0
+
+  - id: 4
+    code: "STEP_4_ENGAGE_PURGE_VALVE"
+    name: "Engage Channel Vacuum Purge"
+    description: "Open the recovery valve to purge fluid into waste containment slot."
+    target_object: "yellow_box"
+    expected_action: "extract_object"
+    voice_prompt: "Flow recorded. Step four: Open vacuum recovery valve to evacuate test channel."
+    voice_alert_skip: "Safety violation! Do not open secondary valve while main channel is active."
+    prerequisites: ["STEP_3_RECORD_FLOW_MENISCUS"]
+    min_duration_sec: 1.0
+    timeout_sec: 30.0
+
+  - id: 5
+    code: "STEP_5_SEAL_WASTE_CONTAINER"
+    name: "Seal & Stow Fluid Waste Slot"
+    description: "Close secondary isolation lock and return fluid cartridge to payload slot."
+    target_object: "payload_slot"
+    expected_action: "interact_slot"
+    voice_prompt: "Evacuation verified. Step five: Seal waste container and stow fluid cartridge."
+    voice_alert_skip: "Warning! Ensure fluid cartridge is sealed before latching containment."
+    prerequisites: ["STEP_4_ENGAGE_PURGE_VALVE"]
+    min_duration_sec: 1.0
+    timeout_sec: 30.0
+
+completion_message: "Fluid Capillary Experiment completed flawlessly. Zero protocol violations. Telemetry archived."

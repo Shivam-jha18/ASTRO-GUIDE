@@ -1,0 +1,10 @@
+Timestamp_ISO,Unix_Time,Event_Type,Step_ID,Step_Name,Outcome_Status,Duration_Sec,Anomaly_Details
+2026-10-05T15:44:03Z,1791215043.938,ANOMALY_ALERT,1,Unlatch & Open Main Containment Box,VIOLATION,0.0,Step skipped! Attempting 'Close & Latch Main Containment Box' before completing 'Unlatch & Open Main Containment Box'.
+2026-10-05T15:44:33Z,1791215073.155,ANOMALY_ALERT,1,Unlatch & Open Main Containment Box,VIOLATION,0.0,Step skipped! Attempting 'Close & Latch Main Containment Box' before completing 'Unlatch & Open Main Containment Box'.
+2026-10-05T15:44:37Z,1791215077.158,ANOMALY_ALERT,1,Unlatch & Open Main Containment Box,VIOLATION,0.0,Step skipped! Attempting 'Close & Latch Main Containment Box' before completing 'Unlatch & Open Main Containment Box'.
+2026-10-05T15:44:41Z,1791215081.186,ANOMALY_ALERT,1,Unlatch & Open Main Containment Box,VIOLATION,0.0,Step skipped! Attempting 'Close & Latch Main Containment Box' before completing 'Unlatch & Open Main Containment Box'.
+2026-10-05T15:44:45Z,1791215085.195,ANOMALY_ALERT,1,Unlatch & Open Main Containment Box,VIOLATION,0.0,Step skipped! Attempting 'Close & Latch Main Containment Box' before completing 'Unlatch & Open Main Containment Box'.
+2026-10-05T15:44:49Z,1791215089.201,ANOMALY_ALERT,1,Unlatch & Open Main Containment Box,VIOLATION,0.0,Step skipped! Attempting 'Close & Latch Main Containment Box' before completing 'Unlatch & Open Main Containment Box'.
+2026-10-05T15:44:53Z,1791215093.215,ANOMALY_ALERT,1,Unlatch & Open Main Containment Box,VIOLATION,0.0,Step skipped! Attempting 'Close & Latch Main Containment Box' before completing 'Unlatch & Open Main Containment Box'.
+2026-10-05T15:44:57Z,1791215097.225,ANOMALY_ALERT,1,Unlatch & Open Main Containment Box,VIOLATION,0.0,Step skipped! Attempting 'Close & Latch Main Containment Box' before completing 'Unlatch & Open Main Containment Box'.
+2026-10-05T15:45:01Z,1791215101.254,ANOMALY_ALERT,1,Unlatch & Open Main Containment Box,VIOLATION,0.0,Step skipped! Attempting 'Close & Latch Main Containment Box' before completing 'Unlatch & Open Main Containment Box'.

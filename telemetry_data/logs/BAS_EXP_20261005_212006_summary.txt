@@ -1,0 +1,32 @@
+==============================================================================
+BHARATIYA ANTARIKSH STATION (BAS) - ON-BOARD EXPERIMENT VERIFICATION REPORT
+==============================================================================
+Mission / Payload:     BHARATIYA_ANTARIKSH_STATION_IVA
+Session ID:            BAS_EXP_20261005_212006
+Report Generated (UTC):2026-10-05 15:50:09 UTC
+Hardware Platform:     EDGE_PAYLOAD_AI_01 (Offline Standalone Operation)
+Protocol Code:         ISRO_BAS_EXP_26175
+Protocol Title:        Microgravity Fluid Capillary Dynamics & Channel Flow Experiment
+Completion Status:     IN PROGRESS / PARTIAL
+Overall Progress:      0%
+Total Elapsed Time:    1.62 seconds
+------------------------------------------------------------------------------
+CONDUCTED EXPERIMENT STEPS & OUTCOMES:
+------------------------------------------------------------------------------
+ID   STEP NAME                          TARGET       DURATION   STATUS      
+------------------------------------------------------------------------------
+1    Calibrate & Align Capillary Chamb  main_box     0.0s       [IN_PROGRESS]
+2    Inject Fluorescent Tracer Liquid   red_box      0.0s       [PENDING]   
+3    Verify Meniscus Interface & Veloc  red_box      0.0s       [PENDING]   
+4    Engage Channel Vacuum Purge        yellow_box   0.0s       [PENDING]   
+5    Seal & Stow Fluid Waste Slot       payload_slo  0.0s       [PENDING]   
+------------------------------------------------------------------------------
+MISSION AUDIT & ANOMALY SUMMARY:
+Total Anomalies Logged: 0
+Protocol Compliance:   100% PERFECT ADHERENCE (Zero sequence violations)
+------------------------------------------------------------------------------
+RECENT TELEMETRY EVENTS STREAM:
+  2026-10-05T15:50:07Z | ANOMALY_ALERT    | Step 1: VIOLATION | Step skipped! Attempting 'Close & Latch Main Containment Box' before completing 'Unlatch & Open Main Containment Box'.
+==============================================================================
+END OF STRUCTURED TELEMETRY REPORT [ARCHIVED LOCALLY]
+==============================================================================
